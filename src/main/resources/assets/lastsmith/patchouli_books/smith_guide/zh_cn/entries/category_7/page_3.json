@@ -1,7 +1,7 @@
 {
    "name" : "「量子太刀」",
    "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/nanosaber/model\", TextureName: \"named/nanosaber/texture_1_on\"}",
-   "category" : "category_6",
+   "category" : "category_7",
    "pages" : [
       {
          "type" : "text",
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.bewitched_blade"
+         "recipe" : "lastsmith:flammpfeil.slashblade.named.quantumsaber"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",
