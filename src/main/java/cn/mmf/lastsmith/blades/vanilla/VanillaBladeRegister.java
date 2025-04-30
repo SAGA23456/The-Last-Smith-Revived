@@ -196,7 +196,7 @@ public class VanillaBladeRegister {
 			}));
 		}
 		if (!TLSConfig.advanced_mode) return;
-	   	ItemStack sphere = SlashBlade.findItemStack(SlashBlade.modid, SlashBlade.SphereBladeSoulStr, 1);
+		ItemStack sphere = SlashBlade.findItemStack(SlashBlade.modid, SlashBlade.SphereBladeSoulStr, 1);
 		ItemStack blade_base = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.base");
 		ItemStack blade_water = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.water");
 		ItemStack blade_fire = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.fire");
