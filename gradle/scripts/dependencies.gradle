@@ -12,6 +12,9 @@ repositories {
             includeGroup 'curse.maven'
         }
     }
+    maven {
+        url 'https://maven.cleanroommc.com'
+    }
     mavenLocal() // Must be last for caching to work
 }
 
@@ -21,8 +24,8 @@ dependencies {
     // Include OSXNarratorBlocker by default for the dev env, for M1+ Macs
     runtimeOnly 'com.cleanroommc:osxnarratorblocker:1.0'
 
-    // HEI
-    implementation rfg.deobf('curse.maven:had-enough-items-557549:4810661')
+    // HEI: https://github.com/CleanroomMC/HadEnoughItems
+    implementation 'mezz:jei:4.28.0'
 
     // Hard Dependencies
     implementation rfg.deobf('curse.maven:slashblade-241596:3039993')
@@ -43,4 +46,12 @@ dependencies {
     compileOnly rfg.deobf('curse.maven:industrial-craft-242638:2980904')
     compileOnly rfg.deobf('curse.maven:the-twilight-forest-227639:2818055')
     compileOnly rfg.deobf('curse.maven:terrafirmacraft-302973:3645502')
+
+    runtimeOnly rfg.deobf('curse.maven:patchouli-306770:3162874')
+    runtimeOnly rfg.deobf("curse.maven:botania-225643:3330934")
+    runtimeOnly rfg.deobf('curse.maven:baubles-227083:2518667')
+    runtimeOnly rfg.deobf('curse.maven:thaumcraft-223628:2629023')
+    runtimeOnly rfg.deobf('curse.maven:industrial-craft-242638:2980904')
+    runtimeOnly rfg.deobf('curse.maven:the-twilight-forest-227639:2818055')
+    runtimeOnly rfg.deobf('curse.maven:terrafirmacraft-302973:3645502')
 }

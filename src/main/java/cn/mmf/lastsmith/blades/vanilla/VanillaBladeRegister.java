@@ -9,7 +9,9 @@ import cn.mmf.lastsmith.item.ItemLoader;
 import cn.mmf.lastsmith.recipe.RecipeAwakeBladeTLS;
 import cn.mmf.lastsmith.recipe.RecipeKiriSayaTLS;
 import cn.mmf.lastsmith.util.BladeUtil;
+import cn.mmf.slashblade_addon.ConfigLoader;
 import cn.mmf.slashblade_addon.SJAP;
+import static cn.mmf.slashblade_addon.ConfigLoader.*;
 import cn.mmf.slashblade_addon.item.ItemSlashBladeRF;
 import cn.mmf.slashblade_addon.item.ItemSlashBladeWind;
 import cn.mmf.slashblade_addon.recipes.RecipeNihil;
@@ -178,79 +180,119 @@ public class VanillaBladeRegister {
 	}
 	@SubscribeEvent
 	public static void initSJAPBlades(RegisterSlashBladeRecipeEvent event) {
-		if (!Loader.isModLoaded(SJAP.MOD_ID))
-			return;
-			if(!Loader.isModLoaded("twilightforest")) {
-				ItemStack darkraven = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.darkraven");
-				ItemStack doutanuki = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.doutanuki");
-				SlashBlade.addRecipe("flammpfeil.slashblade.named.darkraven",
-					new RecipeAwakeBlade(new ResourceLocation("flammpfeil.slashblade", 
-						"flammpfeil.slashblade.named.darkraven"), darkraven, doutanuki,
-						new Object[] {
-							" FQ", "SQ ", "B  ",
-							Character.valueOf('Q'), "blockCoal",
-							Character.valueOf('F'), new ItemStack(Items.FEATHER),
-							Character.valueOf('S'), "dyeBlack",
-							Character.valueOf('B'), doutanuki 
-				}));
-			}
-			if (!TLSConfig.advanced_mode)
-				return;
-	       ItemStack sphere = SlashBlade.findItemStack(SlashBlade.modid, SlashBlade.SphereBladeSoulStr, 1);
-	        ItemStack blade_base = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.base");
-	        ItemStack blade_water = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.water");
-	        ItemStack blade_fire = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.fire");
-	        ItemStack blade_lightning = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.lightning");
-	        
-			ItemStack reqblade_base = new ItemStack(SlashBlade.weapon);
-			NBTTagCompound reqtag_base = ItemSlashBlade.getItemTagCompound(reqblade_base);
-			ItemSlashBlade.RepairCount.set(reqtag_base, 5);
-			ItemSlashBlade.KillCount.set(reqtag_base, 1000);
-			ItemSlashBlade.ProudSoul.set(reqtag_base, 1000);
-			reqblade_base.addEnchantment(Enchantments.LOOTING, 1);
-			SlashBlade.addRecipe("flammpfeil.slashblade.named.kamuy.base", new RecipeAwakeBladeTLS(new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kamuy.base"),"bewitched_blade", blade_base, reqblade_base, new Object[]{
-					"SQS","IKI","SBS",'S', sphere,'K', reqblade_base,'Q', "gemQuartz",'I', "blockIron",'B', Items.BOOK
+		if (!Loader.isModLoaded(SJAP.MOD_ID)) return;
+		if(darkRaven_Recipe || !Loader.isModLoaded("twilightforest")) {
+			ItemStack darkraven = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.darkraven");
+			ItemStack doutanuki = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.doutanuki");
+			SlashBlade.addRecipe("flammpfeil.slashblade.named.darkraven",
+				new RecipeAwakeBlade(new ResourceLocation("flammpfeil.slashblade",
+					"flammpfeil.slashblade.named.darkraven"), darkraven, doutanuki,
+					new Object[] {
+						" FQ", "SQ ", "B  ",
+                            'Q', "blockCoal",
+                            'F', new ItemStack(Items.FEATHER),
+                            'S', "dyeBlack",
+                            'B', doutanuki
 			}));
-			ItemStack reqblade = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.base");
-			NBTTagCompound reqtag = ItemSlashBlade.getItemTagCompound(reqblade);
-			ItemSlashBlade.RepairCount.set(reqtag, 20);
-			ItemSlashBlade.KillCount.set(reqtag, 2000);
-			ItemSlashBlade.ProudSoul.set(reqtag, 5000);
-			SlashBlade.addRecipe("flammpfeil.slashblade.named.kamuy.water", new RecipeAwakeBladeTLS(new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kamuy.water"),"bewitched_blade", blade_water, reqblade, new Object[]{
-					"S8S","4K6","S2S",
-					'S', sphere,'K', reqblade,'8',"blockLapis",'4', Blocks.ICE,'6', Blocks.SNOW,'2', Items.WATER_BUCKET
-			}));
-			SlashBlade.addRecipe("flammpfeil.slashblade.named.kamuy.fire", new RecipeAwakeBladeTLS(new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kamuy.fire"),"bewitched_blade", blade_fire, reqblade, new Object[]{
-					"S8S","4K6","S2S",
-					'S', sphere,'K', reqblade,'8',"blockRedstone",'4',Items.FIRE_CHARGE,'6', Items.BLAZE_ROD,'2', Items.LAVA_BUCKET
-			}));
-			SlashBlade.addRecipe("flammpfeil.slashblade.named.kamuy.lightning", new RecipeAwakeBladeTLS(new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kamuy.lightning"),"bewitched_blade", blade_lightning, reqblade, new Object[]{
-					"S8S","4K6","S2S",
-					'S', sphere,'K', reqblade,'8',"blockIron",'4', "blockGold",'6', "blockDiamond",'2', "blockEmerald"
-			}));
-			
-		    ItemStack sphere1 = SlashBlade.findItemStack("flammpfeil.slashblade", "sphere_bladesoul", 1);
-		    ItemSlashBlade.SpecialAttackType.set(sphere1.getTagCompound(), Integer.valueOf(0));
-		    ItemStack blade = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kirisaya");
-		    ItemStack reqiredBlade = new ItemStack(SlashBlade.wrapBlade);
-		    NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(reqiredBlade);
-		    ItemSlashBlade.RepairCount.set(tag, Integer.valueOf(1));
-		    ItemSlashBlade.KillCount.set(tag, Integer.valueOf(1000));
-		    ItemSlashBlade.ProudSoul.set(tag, Integer.valueOf(20000));
-		    reqiredBlade.addEnchantment(Enchantments.SHARPNESS, 3);
-		    reqiredBlade.addEnchantment(Enchantments.POWER, 3);
-		    
-		    SlashBlade.addRecipe("flammpfeil.slashblade.named.kirisaya", new RecipeKiriSayaTLS(new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kirisaya"),"sharpness", blade, reqiredBlade, sphere1, new Object[]{
-		    		"DGD", "ZBZ", "GDG", Character.valueOf('G'), new ItemStack(Items.GOLDEN_APPLE, 1, 1), Character.valueOf('D'), new ItemStack(Items.RECORD_11), Character.valueOf('B'), reqiredBlade, Character.valueOf('Z'), sphere1 
-		    }));
-		    
+		}
+		if (!TLSConfig.advanced_mode) return;
+	   	ItemStack sphere = SlashBlade.findItemStack(SlashBlade.modid, SlashBlade.SphereBladeSoulStr, 1);
+		ItemStack blade_base = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.base");
+		ItemStack blade_water = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.water");
+		ItemStack blade_fire = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.fire");
+		ItemStack blade_lightning = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.lightning");
+
+		ItemStack reqblade_base = new ItemStack(SlashBlade.weapon);
+		NBTTagCompound reqtag_base = ItemSlashBlade.getItemTagCompound(reqblade_base);
+		ItemSlashBlade.RepairCount.set(reqtag_base, 5);
+		ItemSlashBlade.KillCount.set(reqtag_base, 1000);
+		ItemSlashBlade.ProudSoul.set(reqtag_base, 1000);
+		reqblade_base.addEnchantment(Enchantments.LOOTING, 1);
+		SlashBlade.addRecipe("flammpfeil.slashblade.named.kamuy.base",
+				new RecipeAwakeBladeTLS(new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kamuy.base"),
+			"bewitched_blade", blade_base, reqblade_base,
+						"SQS",
+						"IKI",
+						"SBS",
+						'S', sphere,
+						'K', reqblade_base,
+						'Q', "gemQuartz",
+						'I', "blockIron",
+						'B', Items.BOOK)
+		);
+		ItemStack reqblade = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kamuy.base");
+		NBTTagCompound reqtag = ItemSlashBlade.getItemTagCompound(reqblade);
+		ItemSlashBlade.RepairCount.set(reqtag, 20);
+		ItemSlashBlade.KillCount.set(reqtag, 2000);
+		ItemSlashBlade.ProudSoul.set(reqtag, 5000);
+		SlashBlade.addRecipe("flammpfeil.slashblade.named.kamuy.water",
+				new RecipeAwakeBladeTLS(new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kamuy.water"),
+						"bewitched_blade", blade_water, reqblade,
+						"S8S",
+						"4K6",
+						"S2S",
+                        'S', sphere,
+						'K', reqblade,
+						'8',"blockLapis",
+						'4', Blocks.ICE,
+						'6', Blocks.SNOW,
+						'2', Items.WATER_BUCKET)
+		);
+		SlashBlade.addRecipe("flammpfeil.slashblade.named.kamuy.fire", new RecipeAwakeBladeTLS(
+				new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kamuy.fire"),
+				"bewitched_blade", blade_fire, reqblade,
+				"S8S",
+				"4K6",
+				"S2S",
+                'S', sphere,
+				'K', reqblade,
+				'8',"blockRedstone",
+				'4',Items.FIRE_CHARGE,
+				'6', Items.BLAZE_ROD,
+				'2', Items.LAVA_BUCKET)
+		);
+		SlashBlade.addRecipe("flammpfeil.slashblade.named.kamuy.lightning", new RecipeAwakeBladeTLS(
+				new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kamuy.lightning"),
+				"bewitched_blade", blade_lightning, reqblade,
+				"S8S",
+				"4K6",
+				"S2S",
+                'S', sphere,
+				'K', reqblade,
+				'8',"blockIron",
+				'4', "blockGold",
+				'6', "blockDiamond",
+				'2', "blockEmerald")
+		);
+		ItemStack sphere1 = SlashBlade.findItemStack("flammpfeil.slashblade", "sphere_bladesoul", 1);
+		ItemSlashBlade.SpecialAttackType.set(sphere1.getTagCompound(), 0);
+		ItemStack blade = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.kirisaya");
+		ItemStack reqiredBlade = new ItemStack(SlashBlade.wrapBlade);
+		NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(reqiredBlade);
+		ItemSlashBlade.RepairCount.set(tag, 1);
+		ItemSlashBlade.KillCount.set(tag, 1000);
+		ItemSlashBlade.ProudSoul.set(tag, 20000);
+		reqiredBlade.addEnchantment(Enchantments.SHARPNESS, 3);
+		reqiredBlade.addEnchantment(Enchantments.POWER, 3);
+		SlashBlade.addRecipe("flammpfeil.slashblade.named.kirisaya", new RecipeKiriSayaTLS(
+				new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kirisaya"),
+				"sharpness", blade, reqiredBlade, sphere1,
+				new Object[] {
+						"DGD",
+						"ZBZ",
+						"GDG",
+						'G', new ItemStack(Items.GOLDEN_APPLE, 1, 1),
+						'D', new ItemStack(Items.RECORD_11),
+						'B', reqiredBlade,
+						'Z', sphere1
+				}
+			)
+		);
 	}
 	@SubscribeEvent
 	public static void initNihilRecipes(RegisterSlashBladeRecipeEvent event) {
-		if (!Loader.isModLoaded(SJAP.MOD_ID))
-			return;
-		if (!TLSConfig.advanced_mode)
-			return;
+		if (!Loader.isModLoaded(SJAP.MOD_ID)) return;
+		if (!TLSConfig.advanced_mode) return;
 		final String namenl = "flammpfeil.slashblade.named.nihil";
 		final String nameex = "flammpfeil.slashblade.named.nihilex";
 		final String nameul = "flammpfeil.slashblade.named.nihilul";
@@ -269,51 +311,88 @@ public class VanillaBladeRegister {
 		reqblade_nl.setItemDamage(Short.MAX_VALUE);
 
 		SlashBlade.addRecipe(namenl, new RecipeAwakeBladeTLS(new ResourceLocation("flammpfeil.slashblade", namenl),
-				"bewitched_blade", nihil,reqblade_nl, new Object[] { "SIS", "IBI", "SIS", 'I', ingot, 'S', sphere, 'B', reqblade_nl }));
+				"bewitched_blade", nihil,reqblade_nl,
+				"SIS",
+				"IBI",
+				"SIS",
+				'I', ingot,
+				'S', sphere,
+				'B', reqblade_nl
+			)
+		);
 		ItemStack reqblade_ex = SlashBlade.getCustomBlade(namenl);
 		NBTTagCompound tag_ex = ItemSlashBlade.getItemTagCompound(reqblade_ex);
-		ItemSlashBlade.RepairCount.set(tag_ex, Integer.valueOf(1));
-		ItemSlashBlade.KillCount.set(tag_ex, Integer.valueOf(1000));
-		ItemSlashBlade.ProudSoul.set(tag_ex, Integer.valueOf(1000));
+		ItemSlashBlade.RepairCount.set(tag_ex, 1);
+		ItemSlashBlade.KillCount.set(tag_ex, 1000);
+		ItemSlashBlade.ProudSoul.set(tag_ex, 1000);
 		if (tag_ex.hasKey("ench")) {
 			tag_ex.removeTag("ench");
 		}
 		SlashBlade.addRecipe(nameex,
 				new RecipeAwakeBladeTLS(new ResourceLocation("flammpfeil.slashblade", nameex),
 						"sharpness", nihilex, reqblade_ex,
-						new Object[] {
-								"SNS", "IBI", "SDS", 'S', sphere, 'I', ingot, 'B', reqblade_ex, 'N',
-								Items.NETHER_STAR, 'D', "blockDiamond" 
-								}));
+                        "SNS",
+						"IBI",
+						"SDS",
+						'S', sphere,
+						'I', ingot,
+						'B', reqblade_ex,
+						'N', Items.NETHER_STAR,
+						'D', "blockDiamond"
+				)
+		);
 		ItemStack reqblade_ul = SlashBlade.getCustomBlade(nameex);
 		NBTTagCompound tag_ul = ItemSlashBlade.getItemTagCompound(reqblade_ul);
 		ItemStack yamato = SlashBlade.getCustomBlade("flammpfeil.slashblade.named.yamato");
-		ItemSlashBlade.RepairCount.set(tag_ul, Integer.valueOf(3));
-		ItemSlashBlade.KillCount.set(tag_ul, Integer.valueOf(3000));
-		ItemSlashBlade.ProudSoul.set(tag_ul, Integer.valueOf(6500));
+		ItemSlashBlade.RepairCount.set(tag_ul, 3);
+		ItemSlashBlade.KillCount.set(tag_ul, 3000);
+		ItemSlashBlade.ProudSoul.set(tag_ul, 6500);
 		if (tag_ul.hasKey("ench")) {
 			tag_ul.removeTag("ench");
 		}
 		SlashBlade.addRecipe(nameul,
 				new RecipeNihil(new ResourceLocation("flammpfeil.slashblade", nameul), nihilul, reqblade_ul, 1, 1,
-						yamato, 1, 2, true, new Object[] { "SNS", "DBD", "SYS", 'S', SlashBlade.weapon, 'Y', yamato,
-								'B', reqblade_ul, 'N', Items.NETHER_STAR, 'D', "blockDiamond" }));
+						yamato, 1, 2, true,
+						"SNS",
+						"DBD",
+						"SYS",
+						'S', SlashBlade.weapon,
+						'Y', yamato,
+                        'B', reqblade_ul,
+						'N', Items.NETHER_STAR,
+						'D', "blockDiamond"
+				)
+		);
 		ItemStack reqblade_cc = SlashBlade.getCustomBlade(nameex);
 		NBTTagCompound tag_cc = ItemSlashBlade.getItemTagCompound(reqblade_cc);
-		ItemSlashBlade.RepairCount.set(tag_cc, Integer.valueOf(3));
-		ItemSlashBlade.KillCount.set(tag_cc, Integer.valueOf(3000));
-		ItemSlashBlade.ProudSoul.set(tag_cc, Integer.valueOf(6500));
+		ItemSlashBlade.RepairCount.set(tag_cc, 3);
+		ItemSlashBlade.KillCount.set(tag_cc, 3000);
+		ItemSlashBlade.ProudSoul.set(tag_cc, 6500);
 		if (tag_cc.hasKey("ench")) {
 			tag_cc.removeTag("ench");
 		}
 		SlashBlade.addRecipe(namecc,
 				new RecipeNihil(new ResourceLocation("flammpfeil.slashblade", namecc), nihilcc, reqblade_cc, 1, 1,
 						nihil, 1, 0, false,
-						new Object[] { "DSD", "DMD", "DDD", 'S', nihil, 'M', reqblade_cc, 'D', "blockDiamond" }));
-
+                        "DSD",
+						"DMD",
+						"DDD",
+						'S', nihil,
+						'M', reqblade_cc,
+						'D', "blockDiamond"
+				)
+		);
 		SlashBlade.addRecipe(namebx,
 				new RecipeNihil(new ResourceLocation("flammpfeil.slashblade", namebx), nihilbx, nihilul, 0, 1, nihilcc,
-						2, 1, false, new Object[] { "DDD", "ACB", "DDD", 'A', nihilul, 'B', nihilcc, 'C',
-								SlashBlade.weapon, 'D', "blockDiamond" }));
+						2, 1, false,
+						"DDD",
+						"ACB",
+						"DDD",
+						'A', nihilul,
+						'B', nihilcc,
+						'C', SlashBlade.weapon,
+						'D', "blockDiamond"
+				)
+		);
 	}
 }

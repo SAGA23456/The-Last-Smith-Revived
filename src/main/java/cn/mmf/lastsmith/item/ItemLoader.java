@@ -1,5 +1,6 @@
 package cn.mmf.lastsmith.item;
 
+import java.util.HashMap;
 import java.util.List;
 
 import cn.mcmod_mmf.mmlib.item.ItemBase;
@@ -105,23 +106,27 @@ public class ItemLoader {
 		"blade_thaum",
 		"blade_void"
 	);
+	public static final String[] BLADE_HEATING_SUBNAMES = new String[]{
+			"blade_unfinished_4",//0
+			"blade_2_unfinished_4",
+			"blade_3_unfinished_4",
+			"blade_red_steel_unfinished_4",
+			"blade_blue_steel_unfinished_4",
+			"blade_thaum_unfinished_4",
+			"blade_void_unfinished_4"
+	};
+	public static final ItemStack[] BLADE_HEATING_RESULT = new ItemStack[]{
+			new ItemStack(BLADE,1,12),
+			new ItemStack(BLADE,1,13),
+			new ItemStack(BLADE,1,14),
+			new ItemStack(BLADE,1,21),
+			new ItemStack(BLADE,1,22),
+			new ItemStack(BLADE,1,31),
+			new ItemStack(BLADE,1,22)
+	};
 	public static ItemBase BLADE_HEATTED = new ItemHeattedBlade(
-		new String[]{
-				"blade_unfinished_4",//0
-				"blade_2_unfinished_4",
-				"blade_3_unfinished_4",
-				"blade_red_steel_unfinished_4",
-				"blade_blue_steel_unfinished_4",
-				"blade_thaum_unfinished_4",
-				"blade_void_unfinished_4"
-		},
-		new ItemStack(BLADE,1,12),
-		new ItemStack(BLADE,1,13),
-		new ItemStack(BLADE,1,14),
-		new ItemStack(BLADE,1,21),
-		new ItemStack(BLADE,1,22),
-		new ItemStack(BLADE,1,31),
-		new ItemStack(BLADE,1,22)
+		BLADE_HEATING_SUBNAMES,
+		BLADE_HEATING_RESULT
 	);
 	public static Item hammer = new ItemHammer().setUnlocalizedName(TLSMain.MODID+'.'+"forging_hammer");
 	private static final ItemLoader instance = new ItemLoader();

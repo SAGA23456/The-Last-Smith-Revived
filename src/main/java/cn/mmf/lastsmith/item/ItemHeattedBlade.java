@@ -36,8 +36,8 @@ public class ItemHeattedBlade extends ItemBase {
 		player.playSound(SoundEvents.ENTITY_GENERIC_EXTINGUISH_FIRE, 1.2F, 1.2F);
 		if(!worldIn.isRemote){
 				BlockCauldron cauldron = (BlockCauldron) worldIn.getBlockState(pos).getBlock();
-				int i = worldIn.getBlockState(pos).getValue(BlockCauldron.LEVEL).intValue();
-				if(i>0){
+				int i = worldIn.getBlockState(pos).getValue(BlockCauldron.LEVEL);
+				if(i > 0) {
 					player.addStat(StatList.CAULDRON_USED);
 					cauldron.setWaterLevel(worldIn, pos, worldIn.getBlockState(pos), i-1);
 					ItemStack item = cold[getDamage(player.getHeldItem(hand))].copy();
