@@ -25,7 +25,10 @@ dependencies {
     runtimeOnly 'com.cleanroommc:osxnarratorblocker:1.0'
 
     // HEI: https://github.com/CleanroomMC/HadEnoughItems
-    implementation 'mezz:jei:4.28.0'
+    // Currently cannot implement it
+    // TODO: change mappings to stable39
+    // implementation 'mezz:jei:4.27.3'
+    implementation rfg.deobf('curse.maven:had-enough-items-557549:4810661')
 
     // Hard Dependencies
     implementation rfg.deobf('curse.maven:slashblade-241596:3039993')

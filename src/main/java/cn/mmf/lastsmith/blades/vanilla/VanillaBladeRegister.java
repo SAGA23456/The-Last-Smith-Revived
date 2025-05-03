@@ -36,7 +36,7 @@ import thaumcraft.Thaumcraft;
 
 @EventBusSubscriber
 public class VanillaBladeRegister {
-	private static String[] defaultBewitched = new String[]{
+	private static final String[] defaultBewitched = new String[]{
 			"flammpfeil.slashblade.named.tagayasan",
 			"flammpfeil.slashblade.named.crimsoncherry",
 			"flammpfeil.slashblade.named.nihilex",
@@ -187,13 +187,11 @@ public class VanillaBladeRegister {
 			SlashBlade.addRecipe("flammpfeil.slashblade.named.darkraven",
 				new RecipeAwakeBlade(new ResourceLocation("flammpfeil.slashblade",
 					"flammpfeil.slashblade.named.darkraven"), darkraven, doutanuki,
-					new Object[] {
-						" FQ", "SQ ", "B  ",
-                            'Q', "blockCoal",
-                            'F', new ItemStack(Items.FEATHER),
-                            'S', "dyeBlack",
-                            'B', doutanuki
-			}));
+                        " FQ", "SQ ", "B  ",
+                        'Q', "blockCoal",
+                        'F', new ItemStack(Items.FEATHER),
+                        'S', "dyeBlack",
+                        'B', doutanuki));
 		}
 		if (!TLSConfig.advanced_mode) return;
 		ItemStack sphere = SlashBlade.findItemStack(SlashBlade.modid, SlashBlade.SphereBladeSoulStr, 1);
@@ -271,7 +269,7 @@ public class VanillaBladeRegister {
 		NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(reqiredBlade);
 		ItemSlashBlade.RepairCount.set(tag, 1);
 		ItemSlashBlade.KillCount.set(tag, 1000);
-		ItemSlashBlade.ProudSoul.set(tag, 20000);
+		ItemSlashBlade.ProudSoul.set(tag, ConfigLoader.nerf_Kirisaya ? 10000 : 20000);
 		reqiredBlade.addEnchantment(Enchantments.SHARPNESS, 3);
 		reqiredBlade.addEnchantment(Enchantments.POWER, 3);
 		SlashBlade.addRecipe("flammpfeil.slashblade.named.kirisaya", new RecipeKiriSayaTLS(
@@ -281,8 +279,8 @@ public class VanillaBladeRegister {
 						"DGD",
 						"ZBZ",
 						"GDG",
-						'G', new ItemStack(Items.GOLDEN_APPLE, 1, 1),
-						'D', new ItemStack(Items.RECORD_11),
+						'G', new ItemStack(Items.GOLDEN_APPLE, 1, nerf_Kirisaya ? 0 : 1),
+						'D', new ItemStack(nerf_Kirisaya ? Items.BOOK : Items.RECORD_11),
 						'B', reqiredBlade,
 						'Z', sphere1
 				}

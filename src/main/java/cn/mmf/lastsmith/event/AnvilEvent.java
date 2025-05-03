@@ -18,8 +18,6 @@ public class AnvilEvent {
 	public static void MuninOldRecipe(AnvilUpdateEvent event) {
         if (!(event.getLeft().getItem() instanceof ItemSlashBlade))
             return;
-        if (event.getRight() == null)
-            return;
         if (!(event.getRight().getItem() == ItemLoader.SCROLL)||(event.getRight().getMetadata()!=17))
             return;
         event.setMaterialCost(1);
@@ -37,30 +35,39 @@ public class AnvilEvent {
 	public static void bewitchedBladeRecipe(AnvilUpdateEvent event) {
         if (!(event.getLeft().getItem() instanceof ItemSlashBlade))
             return;
-        if (event.getRight() == null)
-            return;
         if (!(event.getRight().getItem() == ItemLoader.MATERIALS))
             return;
-        event.setMaterialCost(1);
+
         ItemStack out = event.getLeft().copy();
         NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(out);
+
+        // Fast Refine
+        int refineCount = event.getRight().getCount();
+
+        // Refine Limit if it is present
+        int refineLimit = ItemSlashBlade.getItemTagCompound(event.getLeft()).hasKey("RefineLimit") ? ItemSlashBlade.getItemTagCompound(event.getLeft()).getInteger("RefineLimit") : Integer.MAX_VALUE;
+        refineCount = Math.min(refineCount, refineLimit);
+
+        // If this is the BewitchedRecipe, do not apply fast refine
+        boolean isBewitchedRecipe = false;
+
         int cost = event.getCost();
         float repairFactor;
         switch (event.getRight().getItemDamage()) {
         case 3:
             cost = Math.max(2, cost);
             repairFactor = 0.4f;
-            ItemSlashBlade.ProudSoul.add(tag, 100);
+            ItemSlashBlade.ProudSoul.add(tag, 100 * refineCount);
             break;
         case 4:
             cost = Math.max(3, cost);
             repairFactor = 0.6f;
-            ItemSlashBlade.ProudSoul.add(tag, 500);
+            ItemSlashBlade.ProudSoul.add(tag, 500 * refineCount);
             break;
         case 5:
             cost = Math.max(4, cost);
             repairFactor = 0.7f;
-            ItemSlashBlade.ProudSoul.add(tag, 2500);
+            ItemSlashBlade.ProudSoul.add(tag, 2500 * refineCount);
             break;
         case 6:
             cost = Math.max(1, cost);
@@ -68,17 +75,23 @@ public class AnvilEvent {
             ItemSlashBlade.ProudSoul.add(tag, 10000);
     		ItemSlashBladeNamed.IsDefaultBewitched.set(tag, true);
     		BladeUtil.getInstance().IsBewitchedActived.set(tag, true);
+            isBewitchedRecipe = true;
             break;
         default:
             return;  
         }
+
+        if (!isBewitchedRecipe) cost *= refineCount;
         event.setCost(cost);
 
-        ItemSlashBlade.RepairCount.add(tag, 1);
+        ItemSlashBlade.RepairCount.add(tag, isBewitchedRecipe? 1 : refineCount);
 
+        // TLS Materials repair SlashBlade to a fixed proportion of durability, so it should be regardless of refine times.
         int repair = Math.min(out.getItemDamage(), (int) (out.getMaxDamage() * repairFactor));
-
         out.setItemDamage(out.getItemDamage() - repair);
+
+        // If fast refine, use entire stack of material
+        event.setMaterialCost(isBewitchedRecipe? 1 : refineCount);
 
         if (StringUtils.isBlank(event.getName())){
             if (event.getLeft().hasDisplayName())
