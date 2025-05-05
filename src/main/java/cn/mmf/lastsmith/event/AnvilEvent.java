@@ -46,7 +46,7 @@ public class AnvilEvent {
 
         // Refine Limit if it is present
         int refineLimit = ItemSlashBlade.getItemTagCompound(event.getLeft()).hasKey("RefineLimit") ? ItemSlashBlade.getItemTagCompound(event.getLeft()).getInteger("RefineLimit") : Integer.MAX_VALUE;
-        refineCount = Math.min(refineCount, refineLimit);
+        refineCount = Math.min(refineCount, (refineLimit - ItemSlashBlade.RepairCount.get(tag)));
 
         // If this is the BewitchedRecipe, do not apply fast refine
         boolean isBewitchedRecipe = false;
