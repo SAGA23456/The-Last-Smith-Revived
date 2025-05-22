@@ -243,7 +243,7 @@ tooltip.scroll_tech.name=新型高科技利刃的蓝图。<BR>§8§l§o结合了
 tooltip.scroll_highpowered.name=「TLS」模块的设计蓝图。<BR>§8§l§o代替了实体刀刃的激光技术。<BR>§8§l§o需要时刻注意剩余电量，非善于用刀者不可使用。
 
 achievement.lastsmith.root.title=「木偶」
-achievement.lastsmith.root.desc=亲手制作一振自己的带鞘木刀。§8§l§o学习日本刀构造，为锻造打下基础。
+achievement.lastsmith.root.desc=太刀匠人的旅途，从为自己手作一振带鞘木刀开始。§8§l§o学习刀剑构造，为锻造打下基础。
 achievement.lastsmith.slashblade_bamboolight.title=「竹光」
 achievement.lastsmith.slashblade_bamboolight.desc=制作一振竹刀。§8§l§o古老的苇名国技艺。
 achievement.lastsmith.slashblade_sliverbamboolight.title=「银纸竹光」
