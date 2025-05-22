@@ -15,7 +15,12 @@ public class TLSConfig {
 	@Config.RangeDouble(min = 0D, max = 1D)
 	@Config.Comment("Changes drop rate of Sakura leaf.")
 	public static double sakura_drop_rate = 0.15D;
-	
+
+	@Config.LangKey(config + "simplified_recipe_advancement_info")
+	@Config.Comment("Whether to display the name of its desired advancement directly above the recipe. If false, a piece of lore describing the advancement is displayed.")
+	public static boolean simplified_recipe_advancement_info = true;
+
+
 	@Config.LangKey(config + "spawn_first_with_book")
 	@Config.Comment("Whether First Spawn with TLS Book.")
 	public static boolean spawn_first_with_book = true;

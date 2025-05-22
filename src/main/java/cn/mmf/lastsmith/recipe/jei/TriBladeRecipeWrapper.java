@@ -6,6 +6,8 @@ import mezz.jei.plugins.vanilla.crafting.ShapedOreRecipeWrapper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.I18n;
 
+import static cn.mmf.lastsmith.TLSConfig.simplified_recipe_advancement_info;
+
 public class TriBladeRecipeWrapper extends ShapedOreRecipeWrapper {
 	private RecipeTriBladeTLS recipe;
 	public TriBladeRecipeWrapper(IJeiHelpers jeiHelpers, RecipeTriBladeTLS recipe) {
@@ -15,13 +17,16 @@ public class TriBladeRecipeWrapper extends ShapedOreRecipeWrapper {
     @Override
     public void drawInfo(Minecraft minecraft, int recipeWidth, int recipeHeight, int mouseX, int mouseY) {
         super.drawInfo(minecraft, recipeWidth, recipeHeight, mouseX, mouseY);
-        String localizedInfo = I18n.format("jei.tls.tip.stage.template.text") + I18n.format("achievement.lastsmith." + recipe.getAdvancementName() + ".title");
+        String localizedInfo = simplified_recipe_advancement_info ?
+                I18n.format("jei.tls.tip.stage.template.text") + I18n.format("achievement.lastsmith." + recipe.getAdvancementName() + ".title"):
+                I18n.format("jei.tls.tip.stage." + recipe.getAdvancementName());
+        int color = simplified_recipe_advancement_info ? 0x777777 : 0xBF0000;
         minecraft.fontRenderer.drawString(
                 localizedInfo,
                 -2,
                 -12,
-                0x777777,
-                true
+                color,
+                simplified_recipe_advancement_info
         );
     }
 }
