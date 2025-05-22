@@ -1,10 +1,10 @@
 {
    "display" : {
       "title" : {
-         "translate" : "achievement.lastsmith.smith.final.title"
+         "translate" : "achievement.lastsmith.final_blade.title"
       },
       "description" : {
-         "translate" : "achievement.lastsmith.smith.final.desc",
+         "translate" : "achievement.lastsmith.final_blade.desc",
          "with" : [ "\n" ]
       },
       "icon" : {

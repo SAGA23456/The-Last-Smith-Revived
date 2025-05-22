@@ -254,8 +254,8 @@ achievement.lastsmith.namedblade_2.desc=收集到不为人所知的名刀并独�
 achievement.lastsmith.namedblade_3.title=名刀之卷「补卷」
 achievement.lastsmith.namedblade_3.desc=收集到稍有名气的名刀§8§l§o苍梅、和风双梅、风来刃、荧光管、冰狼双刃、结月、型月……
 
-achievement.lastsmith.bewitched.title=「妖刀」
-achievement.lastsmith.bewitched.desc=目睹妖刀的传说……§8§l§o妖刀者，邪魔侵染之刃也……
+achievement.lastsmith.bewitched_blade.title=「妖刀」
+achievement.lastsmith.bewitched_blade.desc=目睹妖刀的传说……§8§l§o妖刀者，邪魔侵染之刃也……
 achievement.lastsmith.sakura_blade.title=驱魔之刃
 achievement.lastsmith.sakura_blade.desc=收集到四振驱魔之刃§8§l§o樱、杏、雪影、双……
 achievement.lastsmith.scorn.title=「镇魂曲」
@@ -280,15 +280,13 @@ achievement.lastsmith.thaumic_katana.desc=得到神秘使的日本刀§8§l§o�
 achievement.lastsmith.crimson_katana.title=血腥之日本刀
 achievement.lastsmith.crimson_katana.desc=得到邪术使的日本刀§8§l§o渴求着血腥的刀刃，有着玷污生灵的力量……
 
-achievement.lastsmith.silverbamboolight_blood.title=血染之竹刃
-achievement.lastsmith.silverbamboolight_blood.desc=得到血染之竹刃§8§l§o战死的武者，热血挥洒在竹刀之时……英魂斩断了敌寇的猖狂。
 
 achievement.lastsmith.sagequoia.title=「将军木」
 achievement.lastsmith.sagequoia.desc=收集到「将军木」§8§l§o极！大大大大大将军！
 achievement.lastsmith.amagumo.title=「天云」
 achievement.lastsmith.amagumo.desc=收集到“天云双刃”§8§l§o文之「速风」、民之「残云」
-achievement.lastsmith.smith.final.title=「天云」的另一把刀
-achievement.lastsmith.smith.final.desc=收集到天云「无念」§8§l§o被埋葬的天云的第三振刀……§4§l§o政之「无念」，原为「寒齿」
+achievement.lastsmith.final_blade.title=「天云」的另一把刀
+achievement.lastsmith.final_blade.desc=收集到天云「无念」§8§l§o被埋葬的天云的第三振刀……§4§l§o政之「无念」，原为「寒齿」
 
 achievement.lastsmith.sharpness.title=「无上利刃」
 achievement.lastsmith.sharpness.desc=目睹世间无上利刃的历史§4§l§o稀世名器，或被雪藏，或被遗弃……
@@ -330,4 +328,7 @@ research.roukan_xf.text.stage.1=研究元素工具的时候，你想到了一些
 research.roukan_xf.text.stage.2=这二振刀，是以白玉楼庭师的两振佩刀为基底的元素道具。<BR>很显然，这二振刀有着和风雷剑一样的能力，但是比风雷剑强大的多。<BR>很显然，原来刀的某些特性不见了……
 
 research.fortress_blade.text.stage.1=研究元素工具的时候，你想到了一些奇怪的点子。<BR>一位神秘使能否打造出自己的利刃？比起不顺手的长剑，或许日本刀会更合适一些……<BR>当然你很快就写下了基本的配方，更进一步的步骤是……
-research.fortress_blade.text.stage.2=用注魔以及魂樱的力量，强行注入灵力的做法似乎是可行的……<BR>神秘学与日本刀的交汇之时，灵之刀刃出炉之时……<BR>而渴求着血腥的刀刃，有着玷污生灵的力量……
+
+jei.tls.tip.stage.template.text=达成：
+research.fortess_blade.text.stage.1=While researching elemental tools, you came up with some strange ideas. <BR>Can a mysterious messenger create his own sharp blade? Perhaps a Japanese sword would be more appropriate than an unwieldy longsword...<BR>You quickly wrote down the basic recipe, and further steps are...
+research.fortess_blade.text.stage.2=The practice of forcibly infusing spiritual energy with Infusion and the Spirit Sakura seems to work...<BR>The intersection of the Thaumaturgy and the Japanese sword, when the blade of the Spirit comes out... ...<BR>And the blade that thirsts for blood has the power to defile the living...research.fortress_blade.text.stage.2=用注魔以及魂樱的力量，强行注入灵力的做法似乎是可行的……<BR>神秘学与日本刀的交汇之时，灵之刀刃出炉之时……<BR>而渴求着血腥的刀刃，有着玷污生灵的力量……

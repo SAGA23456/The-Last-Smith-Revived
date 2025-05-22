@@ -252,8 +252,8 @@ achievement.lastsmith.namedblade_2.desc=Got unknown Named Blade and smithed a Na
 achievement.lastsmith.namedblade_3.title=Named Scroll-Complementary Volume-
 achievement.lastsmith.namedblade_3.desc=Got famous Named Blade, §8§l§oBlue Plum, Two Blades in Plum Set, Blade with Gust, Fluorescent Bar, Blades of Frost Wolf, Yukari, Knife of BE...
 
-achievement.lastsmith.bewitched.title=-Bewitched Blade-
-achievement.lastsmith.bewitched.desc=Read the legends of Bewitched Blade. §8§l§oThe Blades infused with Devil power, are what we called "Bewitched Blades".
+achievement.lastsmith.bewitched_blade.title=-Bewitched Blade-
+achievement.lastsmith.bewitched_blade.desc=Read the legends of Bewitched Blade. §8§l§oThe Blades infused with Devil power, are what we called "Bewitched Blades".
 achievement.lastsmith.sakura_blade.title=Exorcism Blades
 achievement.lastsmith.sakura_blade.desc=Got 4 Exorcism Blades, §8§l§oSakura, Ginkgo, Yukikage, Kataware...
 achievement.lastsmith.scorn.title=-Requiem-
@@ -270,8 +270,8 @@ achievement.lastsmith.sagequoia.title=-Sagequoia-
 achievement.lastsmith.sagequoia.desc=Got-Sagequoia-§8§l§oKiwami!!! 
 achievement.lastsmith.amagumo.title=-Amagumo-
 achievement.lastsmith.amagumo.desc=Got“Amagumo”§8§l§oAya's -Kaze-, Hiro's-Kumo-
-achievement.lastsmith.smith.final.title=Another -Amagumo-
-achievement.lastsmith.smith.final.desc=Got Amagumo-Munin-§8§l§oThe buried third Amagumo...§4§l§oZheng's-Munin-, Was-Kanchi-
+achievement.lastsmith.final_blade.title=Another -Amagumo-
+achievement.lastsmith.final_blade.desc=Got Amagumo-Munin-§8§l§oThe buried third Amagumo...§4§l§oZheng's-Munin-, Was-Kanchi-
 
 achievement.lastsmith.sharpness.title=-Extremely sharpness blades-
 achievement.lastsmith.sharpness.desc=Witness Extremely sharpness blades histories...§4§l§oExtremely epic blades. Some are hidden, some are abandoned...
@@ -299,6 +299,10 @@ achievement.lastsmith.thaumic_katana.desc=Got Thaumic Katana.§8§l§oThe inters
 achievement.lastsmith.crimson_katana.title=Crimson Katana
 achievement.lastsmith.crimson_katana.desc=Got Crimson Katana§8§l§oThe Blade looking for blood, has the power to defile lives.
 
+achievement.lastsmith.kirisaya.title=Kirisaya
+achievement.lastsmith.kirisaya.desc=Got Kirisaya. §8§l§oSharpness, while without a tangible blade...
+
+jei.tls.tip.stage.template.text=Achieve:
 jei.tls.tip.stage.bewitched_blade=Witness Bewitched Blade...
 jei.tls.tip.stage.sharpness=Witness Extremely Sharpness...
 jei.tls.tip.stage.sakura_blade=Witness Exorcism Blades...

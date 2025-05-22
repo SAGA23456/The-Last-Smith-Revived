@@ -1,10 +1,10 @@
 {
    "display" : {
       "title" : {
-         "translate" : "achievement.lastsmith.bewitched.title"
+         "translate" : "achievement.lastsmith.bewitched_blade.title"
       },
       "description" : {
-         "translate" : "achievement.lastsmith.bewitched.desc",
+         "translate" : "achievement.lastsmith.bewitched_blade.desc",
          "with" : [ "\n" ]
       },
       "icon" : {
