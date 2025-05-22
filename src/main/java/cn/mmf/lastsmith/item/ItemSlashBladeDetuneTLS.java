@@ -88,7 +88,6 @@ public class ItemSlashBladeDetuneTLS extends ItemSlashBladeTLS{
 		return set;
 	}
 
-	@SuppressWarnings("rawtypes")
 	@Override
     public void addInformationSwordClass(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
 		

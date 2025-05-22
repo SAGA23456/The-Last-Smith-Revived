@@ -4,6 +4,8 @@ import cn.mmf.lastsmith.blades.BladeLoader;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
+import javax.annotation.Nonnull;
+
 public final class CreativeTabsTLS extends CreativeTabs {
 
 	public CreativeTabsTLS() {
@@ -11,6 +13,7 @@ public final class CreativeTabsTLS extends CreativeTabs {
 	}
 
 	@Override
+	@Nonnull
 	public ItemStack getTabIconItem() {
 		return new ItemStack(BladeLoader.blade);
 	}

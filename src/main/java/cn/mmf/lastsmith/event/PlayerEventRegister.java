@@ -17,8 +17,7 @@ public class PlayerEventRegister {
 		ItemStack blade = event.getBlade();
 		NBTTagCompound nbt = ItemSlashBlade.getItemTagCompound(blade);
 		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("flammpfeil.slashblade.named.thousand")) {
-			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1)
-			event.setCanceled(true);
+			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1) event.setCanceled(true);
 		}
 		if (!TLSConfig.slashblade_broken_blade_attack_enable) {
 			if(ItemSlashBlade.IsBroken.get(nbt)) {
@@ -47,8 +46,7 @@ public class PlayerEventRegister {
 				event.setCanceled(true);
 		}
 		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("flammpfeil.slashblade.named.thousand")) {
-			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1)
-			event.setCanceled(true);
+			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1) event.setCanceled(true);
 		}
 	}
 	@SubscribeEvent
@@ -62,8 +60,7 @@ public class PlayerEventRegister {
 				event.setCanceled(true);
 		}
 		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("flammpfeil.slashblade.named.thousand")) {
-			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1)
-			event.setCanceled(true);
+			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1) event.setCanceled(true);
 		}
 	}
 	

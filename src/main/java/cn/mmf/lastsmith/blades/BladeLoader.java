@@ -146,10 +146,11 @@ public class BladeLoader {
     	setSlashBladeRender(bladeWhiteSheath);
     	setSlashBladeRender(bladeWood);
     	setSlashBladeRender(bladeSilverBambooLight);
-    	
-        if(Loader.isModLoaded(IC2.MODID)) 
-        	setSlashBladeRender(euBlade);
-        	setSlashBladeRender(rfblade);
+
+		setSlashBladeRender(rfblade);
+
+		if(Loader.isModLoaded(IC2.MODID)) setSlashBladeRender(euBlade);
+
         if(Loader.isModLoaded(Thaumcraft.MODID)){
         	setSlashBladeRender(windBlade);
         	setSlashBladeRender(voidBlade);

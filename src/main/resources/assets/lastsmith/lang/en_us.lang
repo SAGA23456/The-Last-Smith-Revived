@@ -1,4 +1,6 @@
-﻿item.lastsmith.white_top.name=Top-White-
+﻿# Items
+
+item.lastsmith.white_top.name=Top-White-
 item.flammpfeil.slashblade.named.sweapon.name=Sweapon
 item.flammpfeil.slashblade.named.slashblade_old.name=SlashBlade-Sweapon-
 
@@ -214,6 +216,8 @@ item.lastsmith.scroll_crimson.name=Crimson Manuscript
 item.lastsmith.scroll_creait.name=-MMFGroup- Number List
 item.lastsmith.scroll_tech.name=High-tech Blade Blueprint
 item.lastsmith.scroll_highpowered.name=-TLS- Module Blueprint
+
+# Tooltips
 
 tooltip.scroll_namedblade_1.name=Records of household Named。
 tooltip.scroll_namedblade_2.name=Records of some unknown blades。

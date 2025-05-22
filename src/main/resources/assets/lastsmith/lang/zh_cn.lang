@@ -1,4 +1,6 @@
-﻿item.lastsmith.white_top.name=上品「白鞘」
+﻿# Items
+
+item.lastsmith.white_top.name=上品「白鞘」
 item.flammpfeil.slashblade.named.sweapon.name=带鞘直刀
 item.flammpfeil.slashblade.named.slashblade_old.name=太刀
 
@@ -216,6 +218,8 @@ item.lastsmith.scroll_crimson.name=邪血刀使的手稿
 item.lastsmith.scroll_creait.name=「妖怪之山锻刀铺」的名单
 item.lastsmith.scroll_tech.name=高科技利刃的蓝图
 item.lastsmith.scroll_highpowered.name=「TLS系统」模块蓝图
+
+# Tooltips
 
 tooltip.scroll_namedblade_1.name=记载着家喻户晓的名刀。
 tooltip.scroll_namedblade_2.name=记载着一些不为人所知的优质刀。
