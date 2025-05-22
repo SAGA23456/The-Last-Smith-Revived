@@ -1,10 +1,10 @@
 {
    "display" : {
       "title" : {
-         "translate" : "achievement.lastsmith.sliverbamboolight.title"
+         "translate" : "achievement.lastsmith.slashblade_sliverbamboolight.title"
       },
       "description" : {
-         "translate" : "achievement.lastsmith.sliverbamboolight.desc",
+         "translate" : "achievement.lastsmith.slashblade_sliverbamboolight.desc",
          "with" : [ "\n" ]
       },
       "icon" : {

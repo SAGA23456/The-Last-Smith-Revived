@@ -16,9 +16,14 @@ public class AwakedBladeRecipeWrapper extends ShapedOreRecipeWrapper {
     @Override
     public void drawInfo(Minecraft minecraft, int recipeWidth, int recipeHeight, int mouseX, int mouseY) {
         super.drawInfo(minecraft, recipeWidth, recipeHeight, mouseX, mouseY);
-        StringBuilder builder = new StringBuilder("jei.tls.tip.stage.");
-        builder.append(recipe.getAdvancementName());
-        minecraft.fontRenderer.drawString(I18n.format(builder.toString()), 0, -11, 0xBF0000);
+        String localizedInfo = I18n.format("jei.tls.tip.stage.template.text") + I18n.format("achievement.lastsmith." + recipe.getAdvancementName() + ".title");
+        minecraft.fontRenderer.drawString(
+                localizedInfo,
+                -2,
+                -12,
+                0x777777,
+                true
+        );
     }
     
 }

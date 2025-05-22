@@ -18,9 +18,10 @@ public class TriBladeRecipeWrapper extends ShapedOreRecipeWrapper {
         String localizedInfo = I18n.format("jei.tls.tip.stage.template.text") + I18n.format("achievement.lastsmith." + recipe.getAdvancementName() + ".title");
         minecraft.fontRenderer.drawString(
                 localizedInfo,
-                0,
-                -11,
-                0x333333
+                -2,
+                -12,
+                0x777777,
+                true
         );
     }
 }

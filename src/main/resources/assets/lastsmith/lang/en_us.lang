@@ -206,7 +206,7 @@ item.lastsmith.scroll_tuki.name=-Tuki- Legend
 
 item.lastsmith.scroll_ghost.name=Yuumei Scroll
 item.lastsmith.scroll_blood.name=Fushigiri Scroll
-item.lastsmith.scroll_shapeness.name=Extremely Sharpness Scroll
+item.lastsmith.scroll_shapeness.name=Extreme Sharpness Scroll
 item.lastsmith.scroll_nether.name=-Gokukaiken- Legend
 item.lastsmith.scroll_nihil.name=-Nihil- Legend
 item.lastsmith.scroll_thaumium.name=Thaum Manuscript
@@ -236,14 +236,14 @@ tooltip.scroll_creait.name=Members List of -Mysterious Mountain Forging-Shop-<BR
 tooltip.scroll_tech.name=New High-tech Blade's Blueprint。<BR>§8§l§oCombined with the edgy nanotechnology.<BR>§8§l§oIt does its best when fully charged.
 tooltip.scroll_highpowered.name=-TLS- Model Blueprint。<BR>§8§l§oLaser technology replaces a solid blade.<BR>§8§l§oYou need to keep an eye on the remaining power and should not be used by those who are not good with blades.
 
-achievement.lastsmith.first.title=-Wood-
-achievement.lastsmith.first.desc=Make your own wooden blade by yourself.§8§l§oStudy the structure of blade, laying the groundwork for forging。
-achievement.lastsmith.bamboolight.title=-Bamboo Light-
-achievement.lastsmith.bamboolight.desc=Make a bamboo blade.§8§l§oAncient  techniques
-achievement.lastsmith.sliverbamboolight.title=-Silver Bamboo Light-
-achievement.lastsmith.sliverbamboolight.desc=Make a Silver Bamboo Light.§8§l§oOriginal form of changeable Sheath.
-achievement.lastsmith.white.title=-White-
-achievement.lastsmith.white.desc=Forge a white sheath.§8§l§oBasic of Forging, Basic of Slash...
+achievement.lastsmith.root.title=-Wood-
+achievement.lastsmith.root.desc=Make your own wooden blade by yourself.§8§l§oStudy the structure of blade, laying the groundwork for forging。
+achievement.lastsmith.slashblade_bamboolight.title=-Bamboo Light-
+achievement.lastsmith.slashblade_bamboolight.desc=Make a bamboo blade.§8§l§oAncient  techniques
+achievement.lastsmith.slashblade_sliverbamboolight.title=-Silver Bamboo Light-
+achievement.lastsmith.slashblade_sliverbamboolight.desc=Make a Silver Bamboo Light.§8§l§oOriginal form of changeable Sheath.
+achievement.lastsmith.slashblade_white.title=-White-
+achievement.lastsmith.slashblade_white.desc=Forge a white sheath.§8§l§oBasic of Forging, Basic of Slash...
 
 achievement.lastsmith.namedblade_1.title=Named Scroll-Volume I-
 achievement.lastsmith.namedblade_1.desc=Got Named Blade§8§l§oRuby, Haze & Weiss Fox, Muramasa, Doutanuki, Tukumo...
@@ -263,8 +263,8 @@ achievement.lastsmith.roukan_hakurou.title=Blade of Konpaku Family
 achievement.lastsmith.roukan_hakurou.desc=Got-Roukanken-, -Hakurouken-§8§l§o The Tachi of Spirit Sakura...
 achievement.lastsmith.bamboolight_recluse.title=Bamboo Blade of the Hermit
 achievement.lastsmith.bamboolight_recluse.desc=Got Bamboo Blade of the Hermit. §8§l§oThe hermit Ronin, protected his peaceful life from his foes with a plain bamboo Blade.
-achievement.lastsmith.silverbamboolight_blood.title=Bamboo Blade with Blood
-achievement.lastsmith.silverbamboolight_blood.desc=Got Bamboo Blade with Blood. §8§l§oThe dead swordman, spread his blood on his bamboo Blade. His spirit slayed all the enemies.
+achievement.lastsmith.silverbamboo_blood.title=Bamboo Blade with Blood
+achievement.lastsmith.silverbamboo_blood.desc=Got Bamboo Blade with Blood. §8§l§oThe dead swordman, spread his blood on his bamboo Blade. His spirit slayed all the enemies.
 
 achievement.lastsmith.sagequoia.title=-Sagequoia-
 achievement.lastsmith.sagequoia.desc=Got-Sagequoia-§8§l§oKiwami!!! 
@@ -304,7 +304,7 @@ achievement.lastsmith.kirisaya.desc=Got Kirisaya. §8§l§oSharpness, while with
 
 jei.tls.tip.stage.template.text=Achieve:
 jei.tls.tip.stage.bewitched_blade=Witness Bewitched Blade...
-jei.tls.tip.stage.sharpness=Witness Extremely Sharpness...
+jei.tls.tip.stage.sharpness=Witness Extreme Sharpness...
 jei.tls.tip.stage.sakura_blade=Witness Exorcism Blades...
 jei.tls.tip.stage.fushikiri=Witness the Power to Slay the Immortal...
 jei.tls.tip.stage.slashblade_white=Acquire the basic knowlegde of smithing...

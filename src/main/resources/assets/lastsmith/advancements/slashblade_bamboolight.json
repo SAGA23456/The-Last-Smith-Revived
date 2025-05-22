@@ -1,10 +1,10 @@
 {
    "display" : {
       "title" : {
-         "translate" : "achievement.lastsmith.bamboolight.title"
+         "translate" : "achievement.lastsmith.slashblade_bamboolight.title"
       },
       "description" : {
-         "translate" : "achievement.lastsmith.bamboolight.desc",
+         "translate" : "achievement.lastsmith.slashblade_bamboolight.desc",
          "with" : [ "\n" ]
       },
       "icon" : {

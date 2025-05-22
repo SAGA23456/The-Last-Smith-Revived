@@ -238,14 +238,14 @@ tooltip.scroll_creait.name=「妖怪之山锻刀铺」的成员名单。<BR>§8�
 tooltip.scroll_tech.name=新型高科技利刃的蓝图。<BR>§8§l§o结合了最新锐的纳米技术。<BR>§8§l§o在充能状态下保持最佳输出状态。
 tooltip.scroll_highpowered.name=「TLS」模块的设计蓝图。<BR>§8§l§o代替了实体刀刃的激光技术。<BR>§8§l§o需要时刻注意剩余电量，非善于用刀者不可使用。
 
-achievement.lastsmith.first.title=「木偶」
-achievement.lastsmith.first.desc=亲手制作一振自己的带鞘木刀。§8§l§o学习日本刀构造，为锻造打下基础。
-achievement.lastsmith.bamboolight.title=「竹光」
-achievement.lastsmith.bamboolight.desc=制作一振竹刀。§8§l§o古老的苇名国技艺。
-achievement.lastsmith.sliverbamboolight.title=「银纸竹光」
-achievement.lastsmith.sliverbamboolight.desc=制作一振银纸竹光。§8§l§o万变之鞘的原型……
-achievement.lastsmith.white.title=「白鞘」
-achievement.lastsmith.white.desc=锻造出第一把白鞘。§8§l§o刀锻冶的基础，切断之术的基础。
+achievement.lastsmith.root.title=「木偶」
+achievement.lastsmith.root.desc=亲手制作一振自己的带鞘木刀。§8§l§o学习日本刀构造，为锻造打下基础。
+achievement.lastsmith.slashblade_bamboolight.title=「竹光」
+achievement.lastsmith.slashblade_bamboolight.desc=制作一振竹刀。§8§l§o古老的苇名国技艺。
+achievement.lastsmith.slashblade_sliverbamboolight.title=「银纸竹光」
+achievement.lastsmith.slashblade_sliverbamboolight.desc=制作一振银纸竹光。§8§l§o万变之鞘的原型……
+achievement.lastsmith.slashblade_white.title=「白鞘」
+achievement.lastsmith.slashblade_white.desc=锻造出第一把白鞘。§8§l§o刀锻冶的基础，切断之术的基础。
 
 achievement.lastsmith.namedblade_1.title=名刀之卷「上」
 achievement.lastsmith.namedblade_1.desc=收集到家喻户晓的名刀§8§l§o红玉、黑白妖狐、村正、胴田贯、付丧……
@@ -265,8 +265,8 @@ achievement.lastsmith.roukan_hakurou.title=魂魄家传之刃
 achievement.lastsmith.roukan_hakurou.desc=得到「楼观剑」，「白楼剑」§8§l§o幽冥成佛之剑为白楼剑，斩断一切之剑为楼观剑……
 achievement.lastsmith.bamboolight_recluse.title=隐居之人的竹刃
 achievement.lastsmith.bamboolight_recluse.desc=得到隐居之人的竹刃§8§l§o隐居的浪人，以一振未经修饰的竹刀击退了侵扰他安宁的人。
-achievement.lastsmith.silverbamboolight_blood.title=血染之竹刃
-achievement.lastsmith.silverbamboolight_blood.desc=得到血染之竹刃§8§l§o战死的武者，热血挥洒在竹刀之时……英魂斩断了敌寇的猖狂。
+achievement.lastsmith.silverbamboo_blood.title=血染之竹刃
+achievement.lastsmith.silverbamboo_blood.desc=得到血染之竹刃§8§l§o战死的武者，热血挥洒在竹刀之时……英魂斩断了敌寇的猖狂。
 
 achievement.lastsmith.bunshi.title=技术试验
 achievement.lastsmith.bunshi.desc=得到「文始」§8§l§o「文始」，文明时代的初始
@@ -329,6 +329,6 @@ research.roukan_xf.text.stage.2=这二振刀，是以白玉楼庭师的两振佩
 
 research.fortress_blade.text.stage.1=研究元素工具的时候，你想到了一些奇怪的点子。<BR>一位神秘使能否打造出自己的利刃？比起不顺手的长剑，或许日本刀会更合适一些……<BR>当然你很快就写下了基本的配方，更进一步的步骤是……
 
-jei.tls.tip.stage.template.text=达成：
+jei.tls.tip.stage.template.text=达成成就：
 research.fortess_blade.text.stage.1=While researching elemental tools, you came up with some strange ideas. <BR>Can a mysterious messenger create his own sharp blade? Perhaps a Japanese sword would be more appropriate than an unwieldy longsword...<BR>You quickly wrote down the basic recipe, and further steps are...
 research.fortess_blade.text.stage.2=The practice of forcibly infusing spiritual energy with Infusion and the Spirit Sakura seems to work...<BR>The intersection of the Thaumaturgy and the Japanese sword, when the blade of the Spirit comes out... ...<BR>And the blade that thirsts for blood has the power to defile the living...research.fortress_blade.text.stage.2=用注魔以及魂樱的力量，强行注入灵力的做法似乎是可行的……<BR>神秘学与日本刀的交汇之时，灵之刀刃出炉之时……<BR>而渴求着血腥的刀刃，有着玷污生灵的力量……

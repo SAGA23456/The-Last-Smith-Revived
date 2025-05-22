@@ -1,10 +1,10 @@
 {
    "display" : {
       "title" : {
-         "translate" : "achievement.lastsmith.silverbamboolight_blood.title"
+         "translate" : "achievement.lastsmith.silverbamboo_blood.title"
       },
       "description" : {
-         "translate" : "achievement.lastsmith.silverbamboolight_blood.desc",
+         "translate" : "achievement.lastsmith.silverbamboo_blood.desc",
          "with" : [ "\n" ]
       },
       "icon" : {
