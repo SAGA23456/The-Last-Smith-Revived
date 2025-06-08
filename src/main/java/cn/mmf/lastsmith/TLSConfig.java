@@ -16,6 +16,7 @@ public class TLSConfig {
 	@Config.Comment("Changes drop rate of Sakura leaf.")
 	public static double sakura_drop_rate = 0.15D;
 
+	@Config.RequiresMcRestart
 	@Config.LangKey(config + "simplified_recipe_advancement_info")
 	@Config.Comment("Whether to display the name of its desired advancement directly above the recipe. If false, a piece of lore describing the advancement is displayed.")
 	public static boolean simplified_recipe_advancement_info = true;

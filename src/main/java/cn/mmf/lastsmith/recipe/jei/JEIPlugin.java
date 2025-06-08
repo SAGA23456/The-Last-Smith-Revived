@@ -3,6 +3,7 @@ package cn.mmf.lastsmith.recipe.jei;
 import cn.mmf.lastsmith.blades.BladeLoader;
 import cn.mmf.lastsmith.recipe.RecipeAwakeBladeTLS;
 import cn.mmf.lastsmith.recipe.RecipeKiriSayaTLS;
+import cn.mmf.lastsmith.recipe.RecipeMunin;
 import cn.mmf.lastsmith.recipe.RecipeTriBladeTLS;
 import ic2.core.IC2;
 import mezz.jei.api.IJeiHelpers;
@@ -38,6 +39,7 @@ public class JEIPlugin implements IModPlugin{
         registry.handleRecipes(RecipeAwakeBladeTLS.class, new TLSRecipeFactory2(), VanillaRecipeCategoryUid.CRAFTING);
         registry.handleRecipes(RecipeKiriSayaTLS.class, new TLSRecipeFactory(), VanillaRecipeCategoryUid.CRAFTING);
         registry.handleRecipes(RecipeTriBladeTLS.class, new TLSTriRecipeFactory(), VanillaRecipeCategoryUid.CRAFTING);
+		registry.handleRecipes(RecipeMunin.class, new TLSRecipeMuninFactory(), VanillaRecipeCategoryUid.CRAFTING);
     }
 	@Override
 	public void registerItemSubtypes(ISubtypeRegistry subtypeRegistry) {
