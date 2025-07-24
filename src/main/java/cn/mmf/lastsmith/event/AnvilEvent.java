@@ -1,5 +1,7 @@
 package cn.mmf.lastsmith.event;
 
+import cn.mmf.lastsmith.TLSMain;
+import net.minecraft.util.ResourceLocation;
 import org.apache.commons.lang3.StringUtils;
 
 import cn.mmf.lastsmith.item.ItemLoader;
@@ -31,11 +33,21 @@ public class AnvilEvent {
         event.setCost(1);
         event.setOutput(out);
 	}
+
+    private static boolean isTLSMaterial(ItemStack stack) {
+        ResourceLocation rl = stack.getItem().getRegistryName();
+        return rl != null && rl.getResourceDomain().equals(TLSMain.MODID) && rl.getResourcePath().equals("materials") &&
+                // meta 0, 1, 2 are not TLS refine materials,
+                // see cn.mmf.lastsmith.item.ItemLoader.MATERIALS
+                stack.getMetadata() > 2;
+    }
+
+
 	@SubscribeEvent
 	public static void bewitchedBladeRecipe(AnvilUpdateEvent event) {
         if (!(event.getLeft().getItem() instanceof ItemSlashBlade))
             return;
-        if (!(event.getRight().getItem() == ItemLoader.MATERIALS))
+        if (!isTLSMaterial(event.getRight()))
             return;
 
         ItemStack out = event.getLeft().copy();
