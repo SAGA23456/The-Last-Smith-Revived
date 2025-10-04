@@ -1,0 +1,18 @@
+{
+   "name" : "魂桜刀「永貞」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/nagasada/model.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/nagasada/texture.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.nagasada\"}}",
+   "category" : "last_smith:category_4",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "「永貞」は第一振魂桜刀であり、一種の試作品と言える。$(br2)実際、この刀は当初、私を惹きつける要素がまったくなかった。無理に挙げるとすれば、なぜか焼き入れをしても曲がらず、他の刀よりもさらに頑丈であることが最大の特徴だ。$(br2)他の刀鍛冶の助言に従って長刀を鍛え上げるまで、私は魂桜の真の強さを理解していなかった……"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:nagasada",
+         "text" : "鍛造の際に魂桜の記録が必要。"
+      }
+   ],
+   "advancement":"last_smith:blade_sakura",
+   "sortnum" : 1
+}

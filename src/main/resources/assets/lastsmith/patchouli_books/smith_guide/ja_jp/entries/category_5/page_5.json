@@ -1,0 +1,18 @@
+{
+   "name" : "「不死斬」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/named/sekiro/fushigiri.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/sekiro/fushigiri.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.fushigiri\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "平田家の従者は、古びて手入れされていない大太刀を一振背負っていたが、その刀に漂う妖気の濃さが私の警戒心を掻き立てた。$(br2)彼がこの大太刀を抜いた瞬間、妖気が爆発的に噴き出した。私は急いで距離を置いてその鋭さを回避せざるを得なかった。$(br2)伝承によれば、一匹の桜龍がこの世に現れ、後に血に染まった刃によって傷つけられたという……おそらくこの大太刀の力に違いない。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:fushigiri",
+         "text" : "人間はこの刀を抜くことはできない。抜いた者は必ず死ぬからだ。この忍者は一体なぜ、この妖刀を軽々と操れるのか……$(br2)あの斬りつけから生き延びて逃れることは、想像以上に困難なことだった。そして私はすぐに正体を暴かれたため、葦名地方を離れることになった。「永貞」さえも、永遠にそこに置き去りにしたまま……"
+      }
+   ],
+   "advancement":"last_smith:scroll_muramasa",
+   "sortnum" : 4
+}

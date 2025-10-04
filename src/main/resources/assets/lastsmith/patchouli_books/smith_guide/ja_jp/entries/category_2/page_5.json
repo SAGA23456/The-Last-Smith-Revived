@@ -1,0 +1,18 @@
+{
+   "name" : "利刀「白鞘」",
+   "icon" : "slashblade:slashblade_white",
+   "category" : "last_smith:category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "鋼刀を鍛造することは容易ではない：厳選された鋼材を選び、幾度も打ち込み、丹念に研磨と彫刻を施してこそ、強靭な刀身が完成する。$(br2)木刀の製作を通じて刀剣の基本構造は理解済みだと思うが、元の木刀の刀身部分を鉄製の刀身と交換するだけで白鞘が完成する。とはいえ、基本的なメモをまず手元に用意しておくことをお勧めする。"
+      },
+      {
+         "type" : "patchouli:spotlight",
+         "item" : "last_smith:blade",
+         "text" : "最も基本的な鋼鉄の刃$(br2)一本の刀身は、鍛造、覆土、焼入れ、研磨、金飾の工程を経て初めて完成する。$(br2)一つの刃の製作には膨大な時間と労力を要する。"
+      }
+   ],
+   "advancement":"last_smith:scrolls",
+   "sortnum" : 4
+}

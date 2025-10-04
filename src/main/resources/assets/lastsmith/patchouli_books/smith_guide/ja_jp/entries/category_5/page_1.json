@@ -1,0 +1,18 @@
+{
+   "name" : "「魂桜の長刀」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/roukan/model.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/roukan/texture.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.roukanken\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "「魂桜の短刀」を鍛え上げた後、他の刀匠たちの助言に従い、一振りの大太刀を鍛造した。$(br2)しかしこの長刀は、私と他の刀鍛冶たちの膨大な精力と資金を消耗した。私たちはこの一振りに予想外に多くの情熱を注ぎ込み、そしてこの長刀は究極の鋭さで私たちの期待に応えてくれた。$(br2)その通り、この「魂桜の長刀」は斬りきれぬものはないという神力を備え、この世のあらゆるものを容易に断ち切ることができる……"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:roukanken",
+         "text" : "その後、私たちはこの一長一短の双刀を剣術の名家である魂魄家に贈呈し、この間の支援への感謝を表した。その家主は長刀を「楼観剣」、短刀を「白楼剣」と名付けた。"
+      }
+   ],
+   "advancement":"last_smith:exorcism_sakura",
+   "sortnum" : 2
+}

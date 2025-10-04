@@ -1,0 +1,18 @@
+{
+   "name" : "無銘刀「竹光」",
+   "icon" : "slashblade:slashblade_bamboo",
+   "category" : "last_smith:category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "竹光刀は葦名地方の伝統工芸である。$(br)苇名地方には良質な鉄鉱資源が不足しているため、竹刀がこの地域で最も一般的な刀剣となった。$(br2)即便是竹也可以有锋利的刃。切裂表皮并不成问题。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "slashblade:slashblade_bamboo",
+         "text" : "未完成の竹光刀だが、一戦を交える力はある。$(br2)竹の鞘で木刀の元の木製鞘を交換することで、刀をより頑丈で耐久性のあるものにする。$(br2)塗料と金属箔で竹光刀の刀装を仕上げれば、竹光刀の製作は完了する。"
+      }
+   ],
+   "advancement":"last_smith:scrolls",
+   "sortnum" : 2
+}

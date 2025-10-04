@@ -1,0 +1,18 @@
+{
+   "name" : "刀剣の研究",
+   "icon" : "last_smith:research_table",
+   "category" : "last_smith:category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "私には一つの習慣がある：新しい刀を手に入れたら、机の上に置いて分解する。分解が終わると、その刀の特徴を研究し記録し、その後再び刀装に組み立てて完成させる。$(br)残りの記録は特別に保管しておき、新しい刀を鍛造する際に参考にできるようにする。$(br)新しい刀を鍛造する際に参照した記録は様々な理由で失われることがあるが、それでもこれは良い習慣である。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "last_smith:research_table",
+         "text" : "物品を細かく研究するのは良い習慣である。"
+      }
+   ],
+   "advancement":"last_smith:root",
+   "sortnum" : 1
+}

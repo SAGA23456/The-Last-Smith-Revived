@@ -1,0 +1,18 @@
+{
+   "name" : "「魂桜の短刀」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/hakurou/model.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/hakurou/texture.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.hakurouken\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "「永貞」は私に魂桜鋼の極めて頑強な特性を認識させた。そこで私は魂桜鋼を用いて、腐敗しにくい短刀を鍛造してみることにした。$(br2)この短刀はまるであまりにも多くの霊力を集めたかのようだったが、完成するまでは確信が持てなかった。試し斬りを始めた時、この短刀の濃厚な霊力が原因で悪霊を引き寄せたようだ。$(br2)私が一瞬反応できなかったのは、短刀が鞘から抜かれたその瞬間、悪霊が短刀によって祓われたことだった。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:hakurouken",
+         "text" : "疑いなく、この短刀には魂を解き放つ力があるが、試し斬りの結果は期待外れだった。$(br2)おそらくこの鋼の刃も研ぐのが難しかったため、実際には鈍い刀になってしまったのだろう。"
+      }
+   ],
+   "advancement":"last_smith:exorcism_sakura",
+   "sortnum" : 1
+}

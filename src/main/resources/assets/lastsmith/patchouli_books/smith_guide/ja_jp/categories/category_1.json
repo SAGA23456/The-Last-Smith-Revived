@@ -1,0 +1,6 @@
+{
+   "name" : "序文",
+   "description" : "この本の序文部分では、本書について簡単に紹介している。$(br2)いくつかの基本的な常識についても序章で触れている。",
+   "icon" : "last_smith:scroll_basic",
+   "sortnum" : 0
+}

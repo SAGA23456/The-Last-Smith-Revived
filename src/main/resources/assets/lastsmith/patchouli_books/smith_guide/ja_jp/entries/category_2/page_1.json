@@ -1,0 +1,17 @@
+{
+   "name" : "無名刀「木偶」",
+   "icon" : "slashblade:slashblade_wood",
+   "category" : "last_smith:category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "木刀は製作が最も簡単であるが、刀剣製作の基礎的な内容を数多く含んでいる。例えば、刀身用の基本的な白鞘をどのように作るかといった点である。$(br2)多くの新人刀匠にとって、木刀は彼らの生涯における最初の刀である。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:slashblade_wood",
+         "text" : "木刀は非常に折れやすく、戦闘には適していない。$(br2)ただし、手入れに注意すれば、一時的な護身用具としても便利に使える。"
+      }
+   ],
+   "sortnum" : 0
+}

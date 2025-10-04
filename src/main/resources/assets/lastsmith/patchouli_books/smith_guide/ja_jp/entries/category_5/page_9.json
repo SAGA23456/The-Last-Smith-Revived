@@ -1,0 +1,18 @@
+{
+   "name" : "天雲「残雲」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/agito.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/smith/texture_cloud.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.amagumo_kumo\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "今振り返れば、当時の決断は少し杞憂すぎたようだ。結局のところ、あの妖刀の力は私たちの地位を揺るがすほどのものではなかったのだから。$(br2)若かりし頃の私はそれでも恐怖を感じ、自らの種族のために守護の刃を鍛え上げることを決意した。$(br2)しかし実際には、我々はもともと十分に強大であり、襲来する敵を撃退するのに十分である。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:amagumo_kaze",
+         "text" : "天雲「残雲」は第二振の天雲剣であり、私の父の佩刀である。$(br2)時折、父がこの刀を携えて重要な場に出席する姿を見かけるが、私が刀鍛冶になったことについては、ずっと不満を抱いているようだ。"
+      }
+   ],
+   "advancement":"last_smith:bewitched",
+   "sortnum" : 9
+}

@@ -1,0 +1,36 @@
+{
+   "name" : "「祓魔の刃」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/named/sakura/model.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/sakura/texture.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.exorcism_sakura\"}}",
+   "category" : "last_smith:category_4",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "徳川家康が天下を平定し、新たな征夷大将軍となったことで、百年にわたる戦乱は完全に終結した。平和と安定が訪れるはずだった。$(br2)しかし、その幸せは長くは続かなかった。妖刀の出現などの原因により、江戸周辺から江戸城内までが濃い妖気に包まれた。$(br2)間もなく、江戸城周辺の村が邪悪な力に飲み込まれてしまった……"
+      },
+      {
+         "type" : "text",
+         "text" : "村が飲み込まれた理由は単純だ：伝説の魔除けの剣を宿す家系がそこに住み、代々、邪悪な魔物を斬り倒す鋭い刃を守り続けてきたのだ。$(br2)第二代桜の刃主——美影はあの悲劇の中で唯一生き残った者であり、若き剣士は数々の困難を乗り越え、自ら最も凶悪な邪悪——修羅を討ち取った。$(br2)残念ながら彼女はすぐに非業の死を遂げ、人々が彼女に別れを告げようとした時、なぜか前代未聞の大火災を引き起こしてしまった……"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:exorcism_sakura",
+         "recipe2" : "last_smith:exorcism_ginkgo"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:exorcism_yuki",
+         "recipe2" : "last_smith:evil_kataware"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:evil_shura",
+         "text" : "その後起こったことはご存知の通り、江戸城を丸ごと飲み込んだ明暦の大火である。間もなく、江戸再建のため、多くの男性が次々と上京し、建設の陣に加わった。$(br2)そしてあの修羅の刃は、どこへ消えたのか……"
+      },
+      {
+         "type" : "text",
+         "text" : "いわゆる祓魔の刃も、魂桜の力の作用に過ぎない。純粋な守護が、邪魔に対しても恐れを知らない刃へと変えたのだ。$(br2)あの三振の祓魔の刃こそが、私が「魂桜の双刀」を鍛えた後に魂桜の力を応用したものである。$(br2)そしてあの二振りの邪悪な刃は、千子村正の失敗作のようだ……"
+      }
+   ],
+   "advancement":"last_smith:nagasada",
+   "sortnum" : 3
+}

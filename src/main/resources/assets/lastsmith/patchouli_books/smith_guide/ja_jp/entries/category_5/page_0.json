@@ -1,0 +1,30 @@
+{
+   "name" : "「閻魔刀」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/named/yamato_neo/yamato_neo.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/yamato_neo/yamato_neo.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.yamato_neo\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "魔族はこの世でかつてこの地を荒らし回り、一時は我ら天狗と敵対していたこともある。$(br2)程なくして、一人の魔剣士が魔剣「閻魔刀」を手に、この地の魔族を斬り倒し、そして去っていった。$(br2)あの空間さえ切り裂きそうな鋭い刃は、確かにこの地に長く住む我々刀鍛冶たちを震撼させた。"
+      },
+      {
+         "type" : "text",
+         "text" : "あの魔剣士はなぜか再びこの地を踏んだ。そしてあの「閻魔刀」も姿を変えていた。$(br2)恐ろしいことに、彼は今回本当に空間を切り裂き、再びこの場を去った。$(br2)おそらく私は永遠にあの魔剣の真の力を知ることはないだろう。しかし、彼がもたらしたものはあの閻魔刀だけではないようだ……"
+      },
+      {
+         "type" : "entity",
+         "entity" : "ender_dragon",
+         "text" : "終わりの地に住まう魔竜はこの魔剣を守っていたが、実際には砕けた刀を守っていた。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:yamato_fix"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:yamato_full"
+      }
+   ],
+   "advancement":"last_smith:scrolls_sakura_full",
+   "sortnum" : 4
+}

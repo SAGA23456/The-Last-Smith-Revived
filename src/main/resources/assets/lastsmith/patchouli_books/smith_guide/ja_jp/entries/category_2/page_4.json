@@ -1,0 +1,18 @@
+{
+   "name" : "名刀「銀紙竹光」",
+   "icon" : "slashblade:slashblade_silverbamboo",
+   "category" : "last_smith:category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "竹光刀の完成品は、その製造技術から「銀紙竹光」と呼ばれる。$(br)鉄箔や銀箔などの材料を用い、卵白で刃先に貼り付け、さらに塗装を施す。$(br2)貧窮に陥った浪人にとって、竹光刀は数少ない信頼できる刀剣である。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:slashblade_silverbamboo",
+         "text" : "素人には葦名地方産の竹光刀と鋼刀を一目で見分けるのは難しい。これこそが葦名地方の竹光刀技術の卓越さを証明している。"
+      }
+   ],
+   "advancement":"last_smith:scrolls",
+   "sortnum" : 3
+}

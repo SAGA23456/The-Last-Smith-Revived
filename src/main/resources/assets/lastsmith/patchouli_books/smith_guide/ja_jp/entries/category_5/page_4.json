@@ -1,0 +1,25 @@
+{
+   "name" : "「獄界剣」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/roukan/model.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/roukan/texture_tx.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.roukanken_nether\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "閻魔刀が再び現れた後、黒衣の男が訪問してきたのだが、私は真に危機感を覚えた。$(br2)彼は地獄から生まれたと言われる二振りの刀を携え、私にその刀の評価を求めてきた。$(br2)この双刀を見たとき、再び「魂桜の双刀」を目にしたと思った。"
+      },
+      {
+         "type" : "text",
+         "text" : "刀を受け取ると、私の疑問はすぐに恐怖へと変わった。これはあの二振りの刀の模造品であり、それ以上に強力だった。$(br2)さらに恐ろしいことに、その刃には不死斬よりも深い妖気がまとわりついており、振り下ろした際には私自身も少なからぬ損傷を被った。$(br2)おそらく黒衣の男が言った通り、この刃は地獄の狭間から来たのだろう。だがなぜ、あの二振りの刀と似た姿で私の前に現れたのか……"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:roukanken_inferno"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:hakurouken_inferno"
+      }
+   ],
+   "advancement":"last_smith:roukan_hakurou",
+   "sortnum" : 5
+}

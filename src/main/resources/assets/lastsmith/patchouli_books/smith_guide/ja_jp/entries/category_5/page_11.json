@@ -1,0 +1,18 @@
+{
+   "name" : "魂桜の宝珠",
+   "icon" : "last_smith:sakura_sphere",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "私は耀魂宝珠の製造過程を模倣し、魂桜鋼のインゴットを高炉で焼成した結果、桜色の宝珠を得た。$(br2)私はこれを桜の宝珠と呼んだが、奇妙なことにその特性は刀の魂珠とは全く異なっていた。$(br2)すぐに気づいたのだ――桜の宝珠は究極まで純化された魂霊そのものだと。"
+      },
+      {
+         "type" : "blasting",
+         "recipe" : "minecraft:sakura_sphere_from_blasting_sakura_steel_ingot",
+         "text" : "一般的な刀剣を桜の宝珠と共に鍛え上げると、桜の宝珠の魂が刀の栄光の魂に反撃する現象さえ見られる。$(br2)これにより刀剣の刻印が魂霊に侵食され、一振りの妖刀へと変貌する。$(br2)妖刀が横行する原因は、おそらく魂桜の魂霊と関係があるのだろう。"
+      }
+   ],
+   "advancement":"last_smith:scrolls_sakura_full",
+   "sortnum" : 0
+}

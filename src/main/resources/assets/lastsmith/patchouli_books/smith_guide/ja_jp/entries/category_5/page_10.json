@@ -1,0 +1,34 @@
+{
+   "name" : "天雲「無念」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/named/smith/model.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/smith/texture_final.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.amagumo_munin\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "鍛造された第三振天雲剣は完全な失敗作となり、むしろ最初に鍛えた「永貞」よりも劣っていた。$(br2)長年の疲労による倦怠感なのか、あるいは過度の自負と傲慢が招いた結果なのか、いずれにせよ私にとってこれは到底受け入れがたい失敗である。$(br2)私は鍛冶小屋で一人きり、この失敗がもたらした絶望を感じていた。"
+      },
+      {
+         "type" : "text",
+         "text" : "再び目を覚ましたとき、なぜか自宅にいた。$(br2)見舞いに来た友人が教えてくれた。鍛冶小屋で倒れていて、一振りの刀に体を貫かれていたのだ。かろうじて蘇生はできたものの、長い間意識を取り戻さなかったという。$(br2)この間、博麗の名を冠した大結界が張られ、我々のこの小さな天地を外界から隔てた。我々はもはや外界の人間たちに煩わされることはなく、残された人間たちは永遠に我々を信仰し続けるだろう……"
+      },
+      {
+         "type" : "text",
+         "text" : "鍛冶職人としての私の生涯は、この事故を境に幕を閉じた。$(br2)再び鍛冶槌を握る勇気も、鋭い刃を鍛える理由も失ってしまった。$(br2)刀匠になった理由さえ、もう忘れてしまった。そして今、最後の天狗刀匠もまた去っていった。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:amagumo_munin",
+         "text" : "この振刀こそが私の最後の作品——天雲「無念」、私自身の佩刀である。しかし、それを手に取る勇気すら私にはない。"
+      },
+      {
+         "type" : "text",
+         "text" : "私は両親に従い鴉天狗の本業に戻ってから長い時が経った後、唐傘の妖怪が私を訪ねてきて、師事して技を学びたいと願い出た。$(br2)私は必死に断った。もう鍛冶の腕は衰えたと。しかし彼女が「魂桜の双刀」の名を口にし、さらに私を奮い立たせる言葉を続けた後、ついに彼女を弟子に迎える決心をした。"
+      },
+      {
+         "type" : "text",
+         "text" : "この本を執筆したのは、刀の物語を後世に伝えるためだけでなく、何よりも自らの心の平安を得るためであった。$(br2)私は今また故郷を離れる旅路に就こうとしている。ただただ、私が愛する新たなものたちのために。$(br2)かつて刀鍛冶となった時のように、創造の過程そのものに心を捧げているのだ。"
+      }
+   ],
+   "advancement":"last_smith:munin",
+   "sortnum" : 10
+}

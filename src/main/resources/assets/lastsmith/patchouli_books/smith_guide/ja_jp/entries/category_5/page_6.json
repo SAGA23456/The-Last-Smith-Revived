@@ -1,0 +1,37 @@
+{
+   "name" : "「竹光の偉業」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/yamato.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/bamboolight/silverbamboo_top.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.silverbamboo_top\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "葦名地方も、あの百年にも及ぶ戦乱の中で免れることはできず、むしろ最も深刻な被害を受けた地域の一つであった。$(br2)神に捧げられた黄金の刀さえ行方知れず、戦火で焼け落ちた神殿だけが残された。$(br2)これほど貴重なものを失うことは神々の怒りを買うかもしれないが、おそらく神々もこの光景を前にすれば目を閉じてしまうだろう……"
+      },
+      {
+         "type" : "text",
+         "text" : "この乱世の中で生き延びるために、人々は竹刀を手に取って抵抗せざるを得なかった。$(br2)苇名地方から逃亡していたあの頃、猿が血に染まった竹刀を手にしているのを見たことがある。元々は誰のものだったのかはわからない。$(br)当時、私の手元には一本の竹刀しか残っていなかったが、猿の手から刀を奪うのは難しくない。$(br2)血に染まった竹刀こそが、乱世の中で闘い抜いた証である。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:bamboo_top",
+         "recipe2" : "last_smith:silverbamboo_top"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:bamboo_hermit",
+         "text" : "この竹刀こそが当時私が持っていたもので、その頃私は長い間偽名で暮らしていた。$(br2)しかし、戦乱のため、ほとんどの時には惨憺たる光景を目にすることしかなかった。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:goldenbamboo",
+         "text" : "この刀こそが神に捧げられた金の刃である。$(br2)金箔を竹刀に完璧に貼り付けることは、葦名の人々が神明に捧げ得る最も精巧な供物である。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:bloodybamboo",
+         "text" : "この刀こそが、あの血に染まった竹刀である。$(br2)その妖気は長きにわたる殺戮によるものと思われるが、これこそが主が乱世の中で闘う象徴である。"
+      }
+   ],
+   "advancement":"last_smith:scroll_bamboo",
+   "sortnum" : 6
+}

@@ -1,0 +1,26 @@
+{
+   "name" : "村正",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/muramasa/muramasa.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/muramasa/muramasa.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.muramasa\"}}",
+   "category" : "last_smith:category_4",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "千子村正は実に才ある刀匠であったが、あまりに究極を追い求めたため、死後もその執念ゆえに成仏できなかった。$(br2)私が「魂桜の長刀」を完成させた後、彼は魂桜の力に執着し、妖気を帯びた妖刀を次々と鍛え上げた。$(br2)伝えられるところによれば、彼は怨霊となった後も百本以上の妖刀を鍛え上げたが、それらの妖刀は行方知れずとなったという。"
+      },
+      {
+         "type" : "text",
+         "text" : "当時彼が私の影響を受けたかどうかはわからないが、力への執着という点では、おそらく私の方が彼以上に強かったかもしれない。$(br2)しかし彼が鍛えた刀剣の多さと精巧さは、まさに彼の刀剣に「妖刀村正」という名声をもたらした。$(br2)しかしそれは外の世界での評判に過ぎず、私は外ではずっと無名の存在で、誰も私の名前を呼ぶことはなかった。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:muramasa"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:muramasa_chizuki",
+         "recipe2" : "last_smith:muramasa_kagura"
+      }
+   ],
+   "advancement":"last_smith:scroll_muramasa",
+   "sortnum" : 4
+}

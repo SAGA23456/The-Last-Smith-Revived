@@ -1,0 +1,33 @@
+{
+   "name" : "名刀「露台」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/blade.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"model/rodai_netherite.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.rodai_netherite\"}}",
+   "category" : "last_smith:category_3",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "厳密に言えば、いわゆる露台とは、身を守るための携帯用刃物を鞘に収めることで得られる一連の刀剣の総称である。$(br2)露台は剣術の発展を促進する上で一定の役割を果たしたが、すぐに刀剣禁止令の影響で衰退した。それに、これらの刀は表舞台に立つことも難しい。$(br2)かつて、極めて希少な合金で刀を鍛える者もいると聞いたことがある。その刃は堅牢で壊れにくいというが、私はその刀を実際に目にしたことはない。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:rodai_wooden",
+         "recipe2" : "slashblade:rodai_stone"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:rodai_iron",
+         "recipe2" : "slashblade:rodai_golden"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:rodai_diamond",
+         "recipe2" : "slashblade:rodai_netherite"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "slashblade:rodai_netherite_smithing",
+         "text" : "これはより伝統的な鍛造法であり、鍛冶型が必要となる。"
+      }
+   ],
+   "advancement":"last_smith:blade",
+   "sortnum" : 2
+}

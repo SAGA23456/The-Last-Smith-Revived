@@ -1,0 +1,38 @@
+{
+   "name" : "星の中の星の墜落",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/sange/sange.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/sange/sange.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.sange\"}}",
+   "category" : "last_smith:category_4",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "天地の間に生まれた我らは、常に天の星々を崇拝してきた。$(br2)星々が永遠に輝く森の間に、刀鍛冶たちは星々に匹敵する刀剣を鍛え上げ、そして星々の間に消えていった……$(br2)黄昏の森を探索する者たちは、星落者と呼ばれている。その中には、刀鍛冶たちの遺産を受け継いだ者もいる。$(br2)しかし多くの人々は、おそらく黄昏の森がどこにあるのかも知らないだろう……"
+      },
+      {
+         "type" : "patchouli:spotlight",
+         "item" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/sange/sange.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/sange/sange.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.sange\"}}",
+         "text" : "なぜか、散華という一振りの星々を貫く刃が、凋霊の体内に隠されていた。（異国ではウィザー？と言うそうだ）$(br2)しかし、それを得るには、この恐ろしい邪霊を刀剣で斬り倒さねばならない。"
+      },
+      {
+         "type" : "patchouli:spotlight",
+         "item" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/agito.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/agito_false.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.agito\"}}",
+         "text" : "暮光の森に住む大蛇（異国ではナーガ？と言うそうだ）は、顎門の名を冠した刃を所持しているが、それは顎門の偽物である。$(br2)しかし、それを得るには、刀剣でこの大蛇を斬り倒さねばならない。"
+      },
+      {
+         "type" : "patchouli:spotlight",
+         "item" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/agito.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/agito_true.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.orotiagito_sealed\"}}",
+         "text" : "八岐大蛇と同様に黄昏の森に棲む九頭蛇……（異国ではヒドラ？と言うそうだ）は、顎門の真品を持っている。$(br2)しかし、それを得るには、刀剣でこの大蛇を斬り倒さねばならない。"
+      },
+      {
+         "type" : "patchouli:spotlight",
+         "item" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/yasha/yasha.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/yasha/yasha.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.yasha\"}}",
+         "text" : "黄昏の森の牛頭人（異国ではミノタウロス？と言うそうだ）は夜叉の名を騙る偽物を持っている。$(br2)それを得るには、この邪悪な牛頭を刀剣で斬り倒さねばならない。"
+      },
+      {
+         "type" : "patchouli:spotlight",
+         "item" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/yasha/yasha_true.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/yasha/yasha.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.yasha_true\"}}",
+         "text" : "暮光の森の中に奇妙な人面牛頭怪物が現れ、夜叉の真物を所持している。（噂では茸が生えてたとか）$(br2)しかし、それを手に入れるためには、この邪悪な造物を剣で斬り倒さねばならない。"
+      }
+   ],
+   "advancement":"last_smith:scroll_named",
+   "sortnum" : 5
+}

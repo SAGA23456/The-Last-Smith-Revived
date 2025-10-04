@@ -1,0 +1,19 @@
+{
+   "name" : "無銘「無名」",
+   "icon" : "slashblade:slashblade",
+   "category" : "last_smith:category_3",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "白鞘はせいぜい刀身を保護する道具に過ぎず、戦闘における優先選択肢ではない。$(br2)真に優れた刀は、それにふさわしい刀装も必要であり、柄から鞘に至るまで精巧に作られなければならない。$(br2)しかし刀装は専門の職人が製作する必要があり、竹光刀を作る職人も刀装に関しては一定の造詣がある。そのため竹光刀の刀装を自分の刀身に取り付けることも、一部の刀匠が選ぶ方法である。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "slashblade:slashblade",
+         "recipe2" : "last_smith:slashblade_from_bamboolight",
+         "text" : "折れた竹刀はもう再利用する価値がないから、捨ててしまったほうがいい。"
+      }
+   ],
+   "advancement":"last_smith:blade",
+   "sortnum" : 0
+}

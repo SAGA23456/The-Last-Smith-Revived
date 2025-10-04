@@ -1,0 +1,18 @@
+{
+   "name" : "宝刀「付喪」結月",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/agito.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/a_tukumo.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.yuzukitukumo\"}}",
+   "category" : "last_smith:category_3",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "結月家の家伝の宝刀。ある島で結月家の当主によって発見された。$(br2)邪念を抱く者が持つと、神仏や悪鬼を斬り裂く妖刀へと邪悪に変化すると言われている。心が澄み切った者が持つと、邪霊を退治する霊刀へと変化する。$(br2)しかしこの刀の霊気から見て、また一つ、わずかに霊気を持つ妖刀に過ぎない。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:yuzukitukumo",
+         "text" : "炎をまとった鋭い刃が、炎と共に舞い踊る……"
+      }
+   ],
+   "advancement":"last_smith:blade",
+   "sortnum" : 4
+}

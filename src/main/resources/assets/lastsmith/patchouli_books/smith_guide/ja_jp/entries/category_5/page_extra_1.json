@@ -1,0 +1,36 @@
+{
+   "name" : "煉獄刀「死念」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade_addon:model/nihil/nihil.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade_addon:model/nihil/nihil_bx.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade_addon.nihil_bx\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "ある一本の妖刀は、私の目には一度も触れたことがない。それが「似蛭」である。$(br2)これは極悪非道な妖刀と言われ、かつて浪人がこれを手に蛭のように無数の悪行を働いたという。$(br2)この人物はかつて「紅桜」と名付けられた鋭い刃を手にしていたが、その行方も今や不明である。"
+      },
+      {
+         "type" : "text",
+         "text" : "しかし私はかつて、血のような赤い妖刀を手に持つ悪鬼を斬り倒したことがある。彼は一言も言わずに私に襲いかかってきた。$(br2)彼の剣術は未熟だが、その妖刀は皆が言う「似蛭」という噂通りだった。もしかすると、あの罪深い浪人を私が自ら斬り倒したのかもしれない。まさにその罪深さゆえに、彼は悪鬼へと変貌したのだろう……"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade_addon:nihil",
+         "recipe2" : "slashblade_addon:nihilex"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade_addon:nihilul",
+         "recipe2" : "slashblade_addon:crimsoncherry"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade_addon:nihilbx"
+      },
+      {
+         "type" : "text",
+         "text" : "あの刀はまるで地獄から生まれた妖刀のようだった。$(br2)それが煉獄から生まれたのか、それとも煉獄を生み出したのかはわからない。いずれにせよ、私はそれを煉獄刀「死念」と名付けた。"
+      }
+   ],
+   "advancement":"last_smith:scrolls_sakura_full",
+   "flag":"mod:slashblade_addon",
+   "sortnum" : 4
+}

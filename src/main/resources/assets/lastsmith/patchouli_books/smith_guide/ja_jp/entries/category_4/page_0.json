@@ -1,0 +1,26 @@
+{
+   "name" : "魂桜の力",
+   "icon" : "last_smith:sakura_full",
+   "category" : "last_smith:category_4",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "刀剣を鍛え始めて間もない年の春、小屋の近くで桜が満開となった。幾枚かの花びらが魂の欠片の上に落ちると、なんと魂の炎が燃え上がった。その後、これらの花びらは枯れる気配を見せず、その霊力の強さに私はある考えを抱いた。$(br2)私はこれらの花びらを集め、人工的に花びらを作る試みまで行い、その結果として魂桜を得た。"
+      },
+      {
+         "type" : "text",
+         "text" : "魂桜は魂片と似た霊気を帯びているようだが、すぐにその特別さを感じ取った。それはより純粋な魂霊であり、それゆえに一層「頑強」である。$(br2)魂桜と鋼材を融合させてみたところ、なんと桜色の鋼材が実際に得られた。$(br2)当初、私はこの鋼材を信じられなかった。鍛造した最初の刀でさえ、その特異性を発見できなかった。しかしすぐに、魂桜の潜在能力が並外れていることに気づいた……"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "last_smith:sakura",
+         "recipe2" : "last_smith:sakura_full"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:sakura_steel"
+      }
+   ],
+   "advancement":"last_smith:root",
+   "sortnum" : 0
+}

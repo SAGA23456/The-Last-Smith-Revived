@@ -1,0 +1,19 @@
+{
+   "name" : "「文始」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/named/rf_roukan/model.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/rf_roukan/texture_on.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.bunshi\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "この刀はかつて河童が所蔵していた魂桜長刀の模造品であった。しかし無念の件が過ぎ去った後、河童たちが私を訪ねてきて、この刀に「特別なものを追加する」ための協力を求めてきた。$(br2)これは河童の技術によって刀に「光線」を付加し、物体をより効率的に斬り落とすものである。$(br2)技術への好奇心と、その後河童との交流が、再び結界の外へ出たいという思いを私に抱かせた。"
+      },
+      {
+         "type" : "smithing",
+         "recipe" : "last_smith:bunshi",
+         "text" : "「文始」という名は、実は「楼観」に由来する。$(br2)しかしそれは同時に、いわゆる「文明開化の始まり」を象徴する意味も込められている。$(br2)少なくとも河童たちは、科学技術が文明をもたらすと信じていた。"
+      }
+   ],
+   "advancement":"last_smith:roukan_hakurou",
+   "flag":"mod:energy_blade",
+   "sortnum" : 4
+}

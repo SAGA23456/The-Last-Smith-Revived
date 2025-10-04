@@ -1,0 +1,28 @@
+{
+   "name" : "剛剣「胴田貫」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/muramasa/muramasa.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/muramasa/doutanuki.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.doutanuki\"}}",
+   "category" : "last_smith:category_3",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "有名な剛剣で、耕地を切り裂くことができる。$(br)切裂耕地とは、畝の縁に試斬用具を積み重ね、斬り下ろした際に直接畝に差し込めるようにすることを指す。$(br2)残念ながら今はゾンビどもに無駄にされている錆びた刀に過ぎない。だが昔、一振りを修復して犬走一家の義弟に贈ったことがある。"
+      },
+      {
+         "type" : "patchouli:spotlight",
+         "item" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade:model/named/muramasa/muramasa.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade:model/named/muramasa/sabigatana.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:1b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.slashblade.sabigatana\"}}",
+         "text" : "一部のゾンビは錆びた刀を所持しており、何とかしてその刀を奪い取ることができる。$(br2)断刀を持ったゾンビの方が多いようだが、刃が良好に保存された錆刀も存在する。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:sabigatana",
+         "text" : "刃が折れた場合、この方法で元の刃先を修復することができる。$(br2)既存の刃を交換することは強くお勧めできない：それは修復ではなく複製になってしまうからだ。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:doutanuki",
+         "text" : "修復された胴田貫は、本来の力を有している。"
+      }
+   ],
+   "advancement":"last_smith:blade",
+   "sortnum" : 3
+}

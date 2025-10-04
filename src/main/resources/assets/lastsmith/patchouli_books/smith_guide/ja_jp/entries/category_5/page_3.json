@@ -1,0 +1,18 @@
+{
+   "name" : "朧「村正」",
+   "icon" : "slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"last_smith:model/named/smith/model.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:1b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"last_smith:model/named/muramasa/texture_oboro.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:5.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:45,proudSoul:0,translationKey:\"item.last_smith.oboro_muramasa\"}}",
+   "category" : "last_smith:category_5",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "朧「村正」は千子村正が鍛えた最後の妖刀である。$(br2)名のごとく、一振りで世の因果応報を断ち切る朦朧たる刃である。$(br2)それゆえ、千子村正の執念はついに断ち切られ、成仏することができた……"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "last_smith:oboro_muramasa",
+         "text" : "この刀は後に裏切った忍者が所持していたと言われている。その忍者はこの刀を携えて世界中を旅し、妖怪を退治した。$(br2)「妖刀村正」の伝説は、こうして幕を閉じた。"
+      }
+   ],
+   "advancement":"last_smith:scroll_muramasa",
+   "sortnum" : 3
+}

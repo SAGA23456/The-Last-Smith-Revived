@@ -1,0 +1,46 @@
+{
+   "name" : "栄光の魂",
+   "icon" : "slashblade:proudsoul",
+   "category" : "last_smith:category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "刀剣で生霊を斬り殺す時、刃には必ず魂の一片が染みつく。$(br2)長い洗礼を経て、刀剣に宿る魂は刀剣自身の栄光へと昇華し、それがいわゆる「栄光の魂」である。$(br2)耀魂は刀身に永続的に宿り、多くの霊気を消耗する剣術も耀魂を放つ。"
+      },
+      {
+         "type" : "text",
+         "text" : "刃が折れた時、耀魂もまた脱落する。耀魂が付着した刃の破片は「刀の魂片」と呼ばれる。$(br2)刃が折れた時、輝魂もまた剥がれ落ちる。多くの名匠たちはこれらの破片を収集し、大切に保管している。輝魂を用いて鍛造された鋼は、ほぼ完璧な刃材となるからだ。$(br2)もちろん、これは魂桜鋼が生まれる前の話だ。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:material/soul",
+         "text" : "断裂した刃は、魂の量に応じて刀の魂欠片を生成するが、その数にも限界がある。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:material/tiny",
+         "recipe2" : "slashblade:material/ingot"
+      },
+      {
+         "type" : "smelting",
+         "recipe" : "slashblade:material/sphere_smelting",
+         "text" : "熔解して刀の魂珠を生成する以外に、刀の魂塊で刀剣付きの刀掛け台を叩くと、その刀が持つSA技を獲得できる。"
+      },
+      {
+         "type" : "blasting",
+         "recipe" : "slashblade:material/crystal_blasting",
+         "text" : "さらに溶鉱炉で刀の魂珠を焼成すると、より高度な刀の魂晶を得ることができる。"
+      },
+      {
+         "type" : "blasting",
+         "recipe" : "slashblade:material/trapezohedron_blasting",
+         "text" : "刀の魂晶は溶高炉での精錬を経て、独特の耀魂結晶体へと変化する。この特異な形状を持つ耀魂は、耀偏方三八面魂と呼ばれる。$(br2)刀内のProudSoulを消耗する代償として、刀剣が限界を突破し、無限に研ぎ澄まされていく。"
+      },
+      {
+         "type" : "text",
+         "text" : "栄光の魂を除けば、霊気を帯びた桜の花びらも刀鍛造や精鍛に用いることができ、これがいわゆる「魂桜」である。微妙な点として、魂桜と耀魂の性質は一致しない。"
+      }
+   ],
+   "advancement":"last_smith:root",
+   "sortnum" : 4
+}
